@@ -1,11 +1,10 @@
 ##Code of conduct
 
-All attendees, speakers, sponsors and volunteers at From the Front events are required to agree with the following code of conduct. Organizers will enforce this code throughout the event.
+From the Front strongly believes that is important for everyone to feel comfortable and therefore requires everyone involved in the conference to adhere to the [Conference Code of Conduct](http://confcodeofconduct.com/).
 
-**From the Front is dedicated to providing a harassment-free conference experience for everyone**, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. **We do not tolerate harassment of conference participants in any form.** Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, Twitter and other online media.
+But it's more than that.
+The code of conduct is a shield to create harrassment-free environment, which is great, but if we stop there we miss a lot of opportunities: embracing diversity would give us the ability to grow as professional and people. 
 
-Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
-
-This policy is inspired by the JSConf EU code of conduct.
+From the Front commits to offer a diverse environment and to create a safe environment to enable anyone to benefit from living it.
 
 ← [back to the homepage](./)
