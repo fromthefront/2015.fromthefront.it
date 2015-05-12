@@ -5,6 +5,6 @@ From the Front strongly believes that is important for everyone to feel comforta
 But it's more than that.
 The code of conduct is a shield to create harrassment-free environment, which is great, but if we stop there we miss a lot of opportunities: embracing diversity would give us the ability to grow as professional and people. 
 
-From the Front commits to offer a diverse environment and to create a safe environment to enable anyone to benefit from living it.
+**From the Front commits to offer a diverse and safe environment to enable everyone to benefit from living it.**
 
 ← [back to the homepage](./)
