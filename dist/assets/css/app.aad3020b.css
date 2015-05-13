@@ -926,7 +926,7 @@ h4, .as-h4 {
     max-width: 32rem; }
     @media (min-width: 62.5em) {
       .l-speaker-teaser__list {
-        max-width: 100%; } }
+        max-width: 64rem; } }
   .l-speaker-teaser__smallprint {
     font-size: 1.125em;
     font-weight: 700;
