@@ -1164,6 +1164,19 @@ h4, .as-h4 {
   .m-home body {
     color: #222222; }
 
+.m-newsletterlink {
+  text-align: center;
+  padding: 0 1.375rem;
+  margin: 1.375rem 0;
+  font-style: italic; }
+  @media (min-width: 43.75em) {
+    .m-newsletterlink__copy, .m-newsletterlink__action {
+      font-size: 1.625rem;
+      line-height: 2.75rem;
+      margin-bottom: 1.375rem;
+      margin-top: 1.375rem;
+      font-weight: 700; } }
+
 .m-social {
   background: #f8f8f8;
   color: #222222;
@@ -1203,6 +1216,8 @@ h4, .as-h4 {
   .m-speaker__twitter {
     background-image: none;
     font-style: italic; }
+  .m-speaker__shortinfo {
+    margin-bottom: 0.34375rem; }
 
 .m-teaser {
   text-align: center; }
@@ -1267,7 +1282,7 @@ h4, .as-h4 {
     background-position: calc(100% - 1rem) calc(100% - 1rem); } }
 .m-tickets__form iframe {
   width: 100%;
-  max-width: 44rem; }
+  max-width: 44rem !important; }
   @media (min-width: 43.75em) {
     .m-tickets__form iframe {
       width: 66.666%; } }
