@@ -6,6 +6,11 @@
     <h2 class="m-speaker__name">
       {{name}}
     </h2>
+    {{#if shortinfo}}
+    <p class="m-speaker__shortinfo">
+      {{shortinfo}}
+    </p>
+    {{/if}}
     <a href="http://twitter.com/{{twitter}}" class="m-speaker__twitter">
       @{{twitter}}
     </a>
