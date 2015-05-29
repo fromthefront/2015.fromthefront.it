@@ -923,10 +923,10 @@ h4, .as-h4 {
     padding: 0 1rem; }
   .l-speaker-teaser__list {
     margin: 0 auto;
-    max-width: 32rem; }
+    max-width: 64rem; }
     @media (min-width: 62.5em) {
       .l-speaker-teaser__list {
-        max-width: 64rem; } }
+        max-width: 74rem; } }
   .l-speaker-teaser__smallprint {
     font-size: 1.125em;
     font-weight: 700;
@@ -939,7 +939,7 @@ h4, .as-h4 {
     @media (min-width: 20em) {
       .l-speaker-teaser__item {
         width: 49%;
-        max-width: 18rem; } }
+        max-width: 15rem; } }
     @media (min-width: 80em) {
       .l-speaker-teaser__item {
         padding: 0 2rem; } }
@@ -1191,11 +1191,11 @@ h4, .as-h4 {
 .m-speaker {
   margin: 1rem auto;
   width: 100%;
-  max-width: 15rem;
+  max-width: 16rem;
   text-align: center; }
   .m-speaker__img {
     width: 100%;
-    max-width: 10rem;
+    max-width: 8rem;
     width: 100%;
     margin: 0 auto;
     border-radius: 50%; }
@@ -1205,14 +1205,8 @@ h4, .as-h4 {
     line-height: 1.375rem;
     margin-bottom: 1.375rem;
     margin-top: 1.375rem;
-    margin-bottom: 0; }
-    @media (min-width: 43.75em) {
-      .m-speaker__name {
-        font-size: 1.625rem;
-        line-height: 2.75rem;
-        margin-bottom: 1.375rem;
-        margin-top: 1.375rem;
-        margin-bottom: 0; } }
+    margin-bottom: 0;
+    line-height: 1.2; }
   .m-speaker__twitter {
     background-image: none;
     font-style: italic; }
