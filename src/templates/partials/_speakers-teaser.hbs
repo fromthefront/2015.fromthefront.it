@@ -3,25 +3,12 @@
     {{site.speaker_teaser_intro}}
   </h2>
   <ul class="l-speaker-teaser__list">
-    <li class="l-speaker-teaser__item">
-      {{> _speaker anna-debenham}}
-    </li>
 
-    <li class="l-speaker-teaser__item">
-      {{> _speaker sally-jenkinson}}
-    </li>
-
-    <li class="l-speaker-teaser__item">
-      {{> _speaker tim-kadlec}}
-    </li>
-
-    <li class="l-speaker-teaser__item">
-      {{> _speaker razan-sadeq}}
-    </li>
-
-    <li class="l-speaker-teaser__item">
-      {{> _speaker petro-salema}}
-    </li>
+    {{#withSort speakers.list "name"}}
+      <li class="l-speaker-teaser__item">
+        {{> _speaker}}
+      </li>
+    {{/withSort}}
 
   </ul>
 
