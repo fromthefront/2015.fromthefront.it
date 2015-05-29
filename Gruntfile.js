@@ -54,7 +54,16 @@ module.exports = function(grunt) {
           '<%= config.src %>/js/app.js'
         ],
         dest: '<%= config.dist %>/assets/js/app.js'
-      }
+      },
+      speakers: {
+            src: ['<%= config.src %>/data/speakers/*.json'],
+            dest: '<%= config.src %>/data/speakers.json',
+            options: {
+                banner: '{"list": [',
+                footer: "]}",
+                separator: ','
+            }
+        }
     },
 
     uglify: {
@@ -150,7 +159,11 @@ module.exports = function(grunt) {
       },
       concat: {
       files: '<%= config.src %>/js/{,*/}*.js',
-        tasks: ['concat']
+        tasks: ['concat:app']
+      },
+      speakers: {
+      files: '<%= config.src %>/data/speakers/{,*/}*.json',
+        tasks: ['concat:speakers', 'assemble']
       },
       livereload: {
         options: {
@@ -189,8 +202,9 @@ module.exports = function(grunt) {
           production: false,
           assets: '<%= config.dist %>/assets',
           layout: '<%= config.src %>/templates/layouts/default.hbs',
-          data: '<%= config.src %>/data/*.{json,yml}',
-          partials: '<%= config.src %>/templates/partials/*.hbs'
+          data: '<%= config.src %>/data/**/*.{json,yml}',
+          partials: '<%= config.src %>/templates/partials/*.hbs',
+          helpers: ['./node_modules/handlebars-helpers/lib/**/*.js' ]
         },
         files: [
           {
@@ -251,11 +265,12 @@ module.exports = function(grunt) {
 
   grunt.registerTask('serve', [
     'clean:generated',
+    'concat:speakers',
     'assemble',
     'sass_directory_import',
     'sass',
     'autoprefixer',
-    'concat',
+    'concat:app',
     'connect:livereload',
     'watch'
   ]);
@@ -265,11 +280,12 @@ module.exports = function(grunt) {
     grunt.task.run([
       'clean:generated',
       'useminPrepare',
+      'concat:speakers',
       'assemble',
       'sass_directory_import',
       'sass',
       'autoprefixer',
-      'concat',
+      'concat:app',
       'uglify',
       'cssmin',
       'critical',

@@ -19,6 +19,7 @@
     "grunt-sass": "~0.18.0",
     "grunt-sass-directory-import": "git+ssh://git@github.com:mattcav/grunt-sass-directory-import#master",
     "grunt-usemin": "^3.0.0",
+    "handlebars-helpers": "^0.5.8",
     "load-grunt-tasks": "~3.1.0",
     "node-sass": "~2.0.1",
     "time-grunt": "~1.1.0"
