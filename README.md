@@ -25,3 +25,6 @@ I file nome-cognome.json sono relativi ai dati di ciascuno speaker.
 
 # Sponsors
 Nel file src/data/sponsors.json ci sono i contenuti per la sezione sponsor. "Order" è l'ordine in cui viene posizionato lo sponsor; "Weight" determina in quale livello di sponsor verrà incluso.
+
+# Speakers
+Aggiungi modifica il singolo file .json relativo allo Speaker in data/speakers. Non editare data/speakers.json, è compilato in automatico da grunt. Compila il campo "image" se hai un'immagine custom, altrimenti il sistema pescherà nome-cognome.jpg nella cartella dist/images.
