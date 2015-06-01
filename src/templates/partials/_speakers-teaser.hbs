@@ -4,16 +4,12 @@
   </h2>
   <ul class="l-speaker-teaser__list">
 
-    {{#withSort speakers.list "name"}}
+    {{#withSort speakers.list "order"}}
       <li class="l-speaker-teaser__item">
         {{> _speaker}}
       </li>
     {{/withSort}}
 
   </ul>
-
-  <p class="l-speaker-teaser__smallprint margin-top-half">
-    {{site.speaker_teaser_outro}}
-  </p>
 
 </section>
