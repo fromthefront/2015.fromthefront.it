@@ -1,79 +1,94 @@
 {"list": [{
   "name": "Amelia Andersdotter",
   "twitter": "teirdes",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 1
 },{
   "name": "Andrew Pendrick",
   "twitter": "andrewpendrick",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 11
 }
 ,{
   "img": "anna-debenham.jpg",
   "name": "Anna Debenham",
   "twitter": "anna_debenham",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 3
 }
 ,{
   "name": "Davide Casali",
   "twitter": "folletto",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 2
 }
 ,{
   "name": "Harry Roberts",
   "twitter": "csswizardry",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 12
 },{
   "name": "James Hall",
   "twitter": "mrrio",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 5
 }
 ,{
   "img": "petro-salema.jpg",
   "name": "Petro Salema",
   "twitter": "petrosalema",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 14
 }
 ,{
   "img": "razan-sadeq.jpg",
   "name": "Razan Sadeq",
   "twitter": "razsadeq",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 13
 }
 ,{
   "img": "sally-jenkinson.jpg",
   "name": "Sally Jenkinson",
   "twitter": "sjenkinson",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 8
 }
 ,{
   "name": "Shane Hudson",
   "twitter": "shanehudson",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 7
 }
 ,{
   "name": "Sharon Steed",
   "twitter": "sharonsteed",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 15
 }
 ,{
   "img": "tim-kadlec.jpg",
   "name": "Tim Kadlec",
   "twitter": "tkadlec",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 9
 }
 ,{
   "name": "Una Kravets",
   "twitter": "una",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 10
 }
 ,{
   "name": "Zach Holman",
   "twitter": "holman",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 6
 }
 ,{
   "name": "Zoe Gillenwater",
   "twitter": "zomigi",
-  "shortinfo": ""
+  "shortinfo": "",
+  "order": 4
 }
 ]}
