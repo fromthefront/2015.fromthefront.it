@@ -1,15 +1,20 @@
 .m-speaker
+  $radius: 50%
+
   margin: 1rem auto
   width: 100%
   max-width: 16rem
   text-align: center
+  &.m-speaker--extended
+    max-width: $medium-col
+    padding: 1rem 0
+    text-align: left
 
   &__img
-    width: 100%
     max-width: 8rem
     width: 100%
     margin: 0 auto
-    border-radius: 50%
+    border-radius: $radius
 
   &__name
     +h4
@@ -22,3 +27,27 @@
 
   &__shortinfo
     margin-bottom: ($rithm / 4)
+
+  // extended style
+
+  &__header
+    +clearfix
+    margin-bottom: $rithm
+
+  &__avatar
+    width: 5rem
+    float: left
+    padding-right: 1rem
+
+  &__strip
+    float: left
+
+  &__main
+    font-size: em($ratio__small)
+    +respond-min($bp__tablet-portrait)
+      margin-left: 5rem
+
+  &__bio
+    overflow: hidden
+
+

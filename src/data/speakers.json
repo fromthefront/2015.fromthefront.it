@@ -1,9 +1,11 @@
 {"list": [{
+  "order": 1,
   "name": "Amelia Andersdotter",
   "twitter": "teirdes",
   "shortinfo": "",
-  "order": 1
-},{
+  "bio": "Amelia Andersdotter was born on 30 August 1987 at Akademiska sjukhuset in Uppsala, Sweden, the first of three children. Her mother, Lotta Lille, is a journalist, and her father, Anders Lundquist, is a teacher and chess tutor. Her sisters are Ulrika and Karolina. She also has a half-brother on her father's side, Eirik Lundquist. After graduating at Rosendalsgymnasiet in Uppsala, she attended university in Lund, where she studied mathematics, physics, Spanish and business law. However, Andersdotter was elected before completing her studies."
+}
+,{
   "name": "Andrew Pendrick",
   "twitter": "andrewpendrick",
   "shortinfo": "",
@@ -67,11 +69,14 @@
   "order": 15
 }
 ,{
+  "order": 9,
   "img": "tim-kadlec.jpg",
   "name": "Tim Kadlec",
   "twitter": "tkadlec",
   "shortinfo": "",
-  "order": 9
+  "bio": "Tim is an independent Web developer living in northern Wisconsin with his wife and three daughters. He is very passionate about the Web and can frequently be found speaking about what he’s learned at a variety of Web conferences. He wrote 'Implementing Responsive Design: Building sites for an anywhere, everywhere web' and was a contributing author for the Web Performance Daybook Volume 2.",
+  "talk-title": "In Between",
+  "talk-abstract": "Historically, the intermediary states of our sites have been neglected. The transition between the starting and ending points has been treated as an afterthought, one we begrudgingly fix because they’re there and they stick out like a sore thumb. But the web is maturing, and our roles are shifting as it does. Through careful choreography we can make sure that these intermediate states feel intentional. That they don’t break our users state of flow, but help to maintain it. The result will be more delightful experiences for our users—from start to finish and every step along the way."
 }
 ,{
   "name": "Una Kravets",

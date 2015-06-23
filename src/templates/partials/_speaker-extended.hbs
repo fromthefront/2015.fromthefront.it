@@ -1,0 +1,39 @@
+<article class="m-speaker m-speaker--extended" id="{{hyphenate (lowercase name) }}">
+  <header class="m-speaker__header">
+  <div class="m-speaker__avatar">
+    {{#if img}}
+      <img src="./assets/images/{{img}}" alt="A photo of {{name}}" class="m-speaker__img">
+    {{else}}
+      <img src="./assets/images/{{hyphenate (lowercase name) }}.jpg"alt="A photo of {{name}}" class="m-speaker__img">
+    {{/if}}
+  </div>
+  <div class="m-speaker__strip">
+    <h1 class="m-speaker__name">
+      {{name}}
+    </h1>
+    <a href="http://twitter.com/{{twitter}}" class="m-speaker__twitter">
+      @{{twitter}}
+    </a>
+  </div>
+  </header>
+
+  <div class="m-speaker__main">
+    {{#if bio}}
+      <p class="m-speaker__bio">
+        {{bio}}
+      </p>
+    {{/if}}
+
+    {{#if talk-abstract}}
+      <section class="m-talk">
+        <h2 class="m-talk__title">
+          {{talk-title}}
+        </h2>
+        <p class="m-talk__abstract">
+          {{talk-abstract}}
+        </p>
+      </section>
+    {{/if}}
+  </div>
+
+</article>

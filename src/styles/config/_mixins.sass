@@ -92,52 +92,11 @@
   li
     margin-bottom: 0
 
-=rb-clearfix
+=clearfix
   &:after
     content: ""
     display: table
     clear: both
-
-=rb-fade-left
-  &:before
-    content: ""
-    display: block
-    position: absolute
-    z-index: 40
-    top: 0
-    left: 0
-    width: 15%
-    height: 100%
-    background: linear-gradient(to right, $color__black, rgba($color__black, 0))
-    pointer-events: none
-    transition: opacity $transition__duration
-
-=rb-fade-right
-  &:after
-    content: ""
-    display: block
-    position: absolute
-    z-index: 40
-    top: 0
-    right: 0
-    width: 15%
-    height: 100%
-    background: linear-gradient(to left, $color__black, rgba($color__black, 0))
-    pointer-events: none
-    transition: opacity $transition__duration
-
-=pseudo($absolute: false, $where: before, $xpos: top, $xposVal: 0, $ypos: left, $yposVal: 0, $margin-top: auto)
-  @if $absolute
-    position: relative
-  &:#{$where}
-    content: ""
-    display: block
-    @if $absolute
-      position: absolute
-      #{$xpos}: $xposVal
-      #{$ypos}: $yposVal
-      @if $margin-top != auto
-        margin-top: $margin-top
 
 =set-border($where: top, $width: 1px, $color: $color__border, $style: solid)
   @if $where == all

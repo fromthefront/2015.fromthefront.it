@@ -8,6 +8,36 @@
     max-width: $medium-col
     width: 100%
 
+  &__main--large
+    max-width: $large-col
+
+  &__header
+    text-align: center
+    +respond-min($bp__tablet-portrait)
+      margin-bottom: 2 * $h1-line
+
+  &__title
+    +h2
+    font-family: $fonts--comp
+    font-weight: 400 !important
+    +respond-min($bp__tablet-portrait)
+      +h1
+
+  &__subtitle
+    color: $color__action
+    font-style: italic
+    background-image: none
+    position: relative
+    top: -$rithm
+    &:visited
+      color: $color__action
+    +on-interaction
+      color: darken($color__action, 20%)
+
+
+
+
+
 
 
 
