@@ -780,27 +780,27 @@ abbr[title] {
   font-family: "lust-script-display", georgia, serif; }
 
 h1, .as-h1 {
-  font-size: 4.25rem;
+  font-size: 4.25em;
   font-weight: 900;
   line-height: 5.5rem;
   margin-bottom: 1.375rem;
   margin-top: 2.75rem; }
 
 h2, .as-h2 {
-  font-size: 2.625rem;
+  font-size: 2.625em;
   font-weight: 700;
   line-height: 2.75rem;
   margin-bottom: 1.375rem;
   margin-top: 2.75rem; }
 
 h3, .as-h3, .l-speaker-teaser__title, .m-banner__title, .m-tickets__title {
-  font-size: 1.625rem;
+  font-size: 1.625em;
   line-height: 2.0625rem;
   margin-bottom: 1.375rem;
   margin-top: 1.375rem; }
 
 h4, .as-h4 {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 700;
   line-height: 1.375rem;
   margin-bottom: 1.375rem;
@@ -920,7 +920,7 @@ h4, .as-h4 {
       .l-page__header {
         margin-bottom: 2.75rem; } }
   .l-page__title {
-    font-size: 2.625rem;
+    font-size: 2.625em;
     font-weight: 700;
     line-height: 2.75rem;
     margin-bottom: 1.375rem;
@@ -929,7 +929,7 @@ h4, .as-h4 {
     font-weight: 400 !important; }
     @media (min-width: 43.75em) {
       .l-page__title {
-        font-size: 4.25rem;
+        font-size: 4.25em;
         font-weight: 900;
         line-height: 5.5rem;
         margin-bottom: 1.375rem;
@@ -992,7 +992,7 @@ h4, .as-h4 {
       padding-left: 2.0625rem;
       padding-right: 2.0625rem; } }
   .l-sponsors__title {
-    font-size: 1.625rem;
+    font-size: 1.625em;
     line-height: 2.0625rem;
     margin-bottom: 1.375rem;
     margin-top: 1.375rem;
@@ -1210,7 +1210,7 @@ h4, .as-h4 {
   font-style: italic; }
   @media (min-width: 43.75em) {
     .m-newsletterlink__copy, .m-newsletterlink__action {
-      font-size: 1.625rem;
+      font-size: 1.625em;
       line-height: 2.0625rem;
       margin-bottom: 1.375rem;
       margin-top: 1.375rem;
@@ -1227,6 +1227,70 @@ h4, .as-h4 {
     min-height: 35px;
     vertical-align: top; }
 
+.m-speaker-page {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 25rem; }
+  .m-speaker-page__pre-title {
+    font-style: italic;
+    margin-bottom: 0.6875rem; }
+  .m-speaker-page__title {
+    font-size: 2.625em;
+    font-weight: 700;
+    line-height: 2.75rem;
+    margin-bottom: 1.375rem;
+    margin-top: 2.75rem;
+    margin: 0; }
+  .m-speaker-page__avatar {
+    margin-bottom: 1.375rem; }
+  .m-speaker-page__img {
+    border-radius: 3px; }
+  .m-speaker-page__twitter {
+    margin: 0 0 1.375rem;
+    display: inline-block;
+    background-image: none;
+    font-style: italic;
+    font-size: 1.125em;
+    font-weight: 400; }
+  .m-speaker-page__talk {
+    font-style: italic; }
+  .m-speaker-page__talk-title {
+    font-size: 1.625em;
+    line-height: 2.0625rem;
+    margin-bottom: 1.375rem;
+    margin-top: 1.375rem;
+    border-bottom: 1px solid #37a5d4; }
+
+@media (min-width: 40em) {
+  .m-speaker-page {
+    max-width: 32rem; }
+    .m-speaker-page__avatar {
+      float: left;
+      padding: 1rem 1rem 0 0;
+      width: 50%; }
+    .m-speaker-page__main:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .m-speaker-page__bio {
+      float: right;
+      padding: 1rem;
+      width: 50%; }
+    .m-speaker-page__talk {
+      clear: both; } }
+
+@media (min-width: 43.75em) {
+  .m-speaker-page {
+    max-width: 44rem; }
+    .m-speaker-page__avatar {
+      width: 33.333%; }
+    .m-speaker-page__bio {
+      width: 66.666%;
+      margin-bottom: 1.375rem; }
+    .m-speaker-page__text {
+      font-size: 1.125em;
+      line-height: 1.5; } }
+
 .m-speaker {
   margin: 1rem auto;
   width: 100%;
@@ -1242,7 +1306,7 @@ h4, .as-h4 {
     margin: 0 auto;
     border-radius: 50%; }
   .m-speaker__name {
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: 700;
     line-height: 1.375rem;
     margin-bottom: 1.375rem;
@@ -1278,7 +1342,7 @@ h4, .as-h4 {
   overflow: hidden;
   font-style: italic; }
   .m-talk__title {
-    font-size: 1.625rem;
+    font-size: 1.625em;
     line-height: 2.0625rem;
     margin-bottom: 1.375rem;
     margin-top: 1.375rem;
