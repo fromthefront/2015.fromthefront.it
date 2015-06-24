@@ -1,0 +1,65 @@
+.m-speaker-page
+  margin: 0 auto
+  width: 100%
+  max-width: $narrow-col
+
+  &__pre-title
+    font-style: italic
+    margin-bottom: ($rithm / 2)
+
+  &__title
+    +h2
+    margin: 0
+
+  &__avatar
+    margin-bottom: $rithm
+
+  &__img
+    border-radius: 3px
+
+  &__twitter
+    margin: 0 0 $rithm
+    display: inline-block
+    background-image: none
+    font-style: italic
+    font-size: em($ratio__medium)
+    font-weight: 400
+
+  &__talk
+    font-style: italic
+
+  &__talk-title
+    +h3
+    border-bottom: 1px solid $color__primary
+
+
++respond-min($bp__phablet)
+  .m-speaker-page
+    max-width: $medium-col
+    &__avatar
+      float: left
+      padding: 1rem 1rem 0 0
+      width: 50%
+    &__main
+      +clearfix
+    &__bio
+      float: right
+      padding: 1rem
+      width: 50%
+    &__talk
+      clear: both
+
++respond-min($bp__tablet-portrait)
+  .m-speaker-page
+    max-width: $regular-col
+    &__avatar
+      width: 33.333%
+    &__bio
+      width: 66.666%
+      margin-bottom: $rithm
+    &__text
+      font-size: em($ratio__medium)
+      line-height: 1.5
+
+
+
