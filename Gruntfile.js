@@ -1,4 +1,6 @@
 'use strict';
+var _ = require('lodash');
+var path = require('path');
 
 module.exports = function(grunt) {
 
@@ -7,6 +9,19 @@ module.exports = function(grunt) {
     useminPrepare: 'grunt-usemin'
   });
 
+  // Wrapping up some data
+  var speakersTemplate = grunt.file.read('./src/templates/layouts/speaker-page.hbs');
+  var pageSpeakers = _.compact(_.flatten(_.map(grunt.file.expand('./src/data/speakers/*.json'), function(filepath) {
+    var data = grunt.file.readJSON(filepath);
+      if (data.bio) {
+        return {
+          filename: path.basename(filepath, path.extname(filepath)),
+          data: data,
+          content: speakersTemplate
+        };
+      }
+  })));
+
   // Project configuration.
   grunt.initConfig({
     config: {
@@ -14,7 +29,7 @@ module.exports = function(grunt) {
       dist: 'dist'
     },
 
-   sass_directory_import: {
+    sass_directory_import: {
       files: {
         src: ['<%= config.src %>/styles/{base,modules,layout,objects}/_all.sass']
       }
@@ -215,6 +230,23 @@ module.exports = function(grunt) {
           },
         ]
       },
+      speakers: {
+        options: {
+          flatten: true,
+          production: false,
+          assets: '<%= config.dist %>/assets',
+          layout: '<%= config.src %>/templates/layouts/speaker-page.hbs',
+          data: '<%= config.src %>/data/**/*.{json,yml}',
+          partials: '<%= config.src %>/templates/partials/*.hbs',
+          helpers: ['./node_modules/handlebars-helpers/lib/**/*.js' ],
+          pages: pageSpeakers
+        },
+        files: [
+          {
+            '<%= config.dist %>/speakers/': ['!*']
+          }
+        ]
+      },
     },
 
     // Before generating any new files,
@@ -264,6 +296,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', function(){
     grunt.config('assemble.pages.options.production', true);
+    grunt.config('assemble.speakers.options.production', true);
     grunt.task.run([
       'clean:generated',
       'useminPrepare',
