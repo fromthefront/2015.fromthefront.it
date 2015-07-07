@@ -2,5 +2,6 @@
   "name": "Harry Roberts",
   "twitter": "csswizardry",
   "shortinfo": "",
-  "order": 12
+  "order": 12,
+  "bio": "Harry is an award-winning Consultant Front-end Architect, designer, developer, writer, and speaker from the UK. Previously a Senior Developer at BSkyB, he now helps teams all over the world build better products. Consultant Front-end Architect for G‪oogle‬, ‪UN‬, ‪Etsy‬, K‪ickstarter‬, ‪BBC‬, U‪nilever‬, ‪Deloitte‬, and more. He specialises in authoring and scaling product-scale UIs, he is the lead developer of inuitcss, a powerful, scalable, Sass-based, BEM, OOCSS framework."
 }
