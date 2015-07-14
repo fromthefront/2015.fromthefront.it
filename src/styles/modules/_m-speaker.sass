@@ -5,19 +5,17 @@
   width: 100%
   max-width: 16rem
   text-align: center
-  &.m-speaker--extended
-    max-width: $medium-col
-    padding: 1rem 0
-    text-align: left
 
   &__img
     margin: 0 auto
     border-radius: $radius
     background-color: color(red)
     background-blend-mode: multiply
-    .l-speaker-teaser__item:nth-child(2n+1) &
+    .l-speaker-teaser__item:nth-of-type(2n+1) &,
+    .l-speakers__slot:nth-of-type(2n+1) &
       background-color: lighten(color(purple), 35%)
-    .l-speaker-teaser__item:nth-child(3n+1) &
+    .l-speaker-teaser__item:nth-of-type(3n+1) &,
+    .l-speakers__slot:nth-of-type(3n+1) &
       background-color: color(yellow)
 
   &__name
@@ -32,25 +30,31 @@
     margin-bottom: ($rithm / 4)
 
   // extended style
+  &.m-speaker--extended
+    max-width: $narrow-col
+    padding: 1rem 0
+    text-align: left
+    +media(">=tablet-portrait")
+      max-width: $medium-col + 2rem
+
+  &__card
+    +media(">=tablet-portrait")
+      display: flex
+      align-items: center
+      .l-speakers__slot:nth-child(odd) &
+        flex-direction: row-reverse
 
   &__header
     +clearfix
     margin-bottom: $rithm
 
-  &__avatar
-    width: 5rem
-    float: left
-    padding-right: 1rem
-
   &__strip
-    float: left
+    text-align: center
 
-  &__main
+  &__content
     font-size: em($ratio__small)
     +media(">=tablet-portrait")
-      margin-left: 5rem
+      margin: 0 $rithm
 
   &__bio
     overflow: hidden
-
-

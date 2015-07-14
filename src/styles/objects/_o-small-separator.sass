@@ -1,0 +1,39 @@
+.o-small-separator
+  position: relative
+  height: 1px
+  width: 90%
+  max-width: 10rem
+  margin: 3rem auto
+  background-color: transparent
+  &::after
+    +position(absolute, top 0 left 50%)
+    content: ""
+    display: block
+    background: color(white)
+    width: 2rem
+    height: 2rem
+    padding: 0.5rem
+    transform: translateX(-50%) translateY(-50%)
+    background:
+      image: url('../images/svg/knight.svg')
+      repeat: no-repeat
+      position: center center
+      size: contain
+
+  .l-speakers__slot:nth-of-type(2n+2) &
+    &::after
+      background-image: url('../images/svg/flower-small.svg')
+      padding: 0
+  .l-speakers__slot:nth-of-type(3n+3) &
+    &::after
+      background-image: url('../images/svg/cherry.svg')
+      padding: 0
+  .l-speakers__slot:nth-of-type(4n+4) &
+    &::after
+      background-image: url('../images/svg/cloud-yellow.svg')
+      padding: 1rem
+
+  .l-speakers__slot:last-child &
+    &::after
+      background-image: none
+

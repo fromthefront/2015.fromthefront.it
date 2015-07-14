@@ -1,30 +1,30 @@
 <article class="m-speaker m-speaker--extended" id="{{hyphenate (lowercase name) }}">
-  <header class="m-speaker__header">
-  <div class="m-speaker__avatar">
-    {{#if img}}
-      <img src="./assets/images/{{img}}" alt="A photo of {{name}}" class="m-speaker__img">
-    {{else}}
-      <img src="./assets/images/{{hyphenate (lowercase name) }}.jpg"alt="A photo of {{name}}" class="m-speaker__img">
-    {{/if}}
-  </div>
-  <div class="m-speaker__strip">
-    <h1 class="m-speaker__name">
-      {{name}}
-    </h1>
-    <a href="http://twitter.com/{{twitter}}" class="m-speaker__twitter">
-      @{{twitter}}
-    </a>
-  </div>
-  </header>
+  <div class="m-speaker__card">
+    <header class="m-speaker__header">
+      <a href="./speakers/{{hyphenate (lowercase name) }}.html">
+        <div class="m-speaker__img {{hyphenate (lowercase name) }}"></div>
+      </a>
 
-  <div class="m-speaker__main">
-    {{#if bio}}
-      <p class="m-speaker__bio">
-        {{bio}}
-      </p>
-    {{/if}}
+      <div class="m-speaker__strip">
+        <h1 class="m-speaker__name">
+          {{name}}
+        </h1>
+        <a href="http://twitter.com/{{twitter}}" class="m-speaker__twitter">
+          @{{twitter}}
+        </a>
+      </div>
+    </header>
+    <div class="m-speaker__content">
+        <div class="m-speaker-page__text">
+{{#markdown}}
+{{bio}}
+{{/markdown}}
+        </div>
+    </div>
+  </div>
 
-    {{#if talk-abstract}}
+  {{#if talk-abstract}}
+    <div class="m-speaker__content">
       <section class="m-talk">
         <h2 class="m-talk__title">
           {{talk-title}}
@@ -33,6 +33,6 @@
           {{talk-abstract}}
         </p>
       </section>
-    {{/if}}
-  </div>
+    </div>
+  {{/if}}
 </article>

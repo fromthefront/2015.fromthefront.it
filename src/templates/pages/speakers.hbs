@@ -1,29 +1,26 @@
 ---
 title: Speakers
 ---
-<a href="./" class="o-topbar">
-  {{site.topbar}}
-</a>
-
 <article class="l-page">
+  <header class="l-page__header l-page__header">
+    <h1 class="l-page__title">
+      {{{site.speaker_page_title}}}s
+    </h1>
+  </header>
+  <div class="l-page__illustration">
+    {{> _cat-illustration}}
+  </div>
   <div class="l-page__main l-page__main--large">
-    <header class="l-page__header">
-      <h1 class="l-page__title">
-        {{title}}
-      </h1>
-      <a href="#tickets" class="l-page__subtitle">
-        {{site.call_to_action}}!
-      </a>
-    </header>
-
     <section class="l-speakers">
       {{#withSort speakers.list "order"}}
         <div class="l-speakers__slot">
           {{> _speaker-extended}}
+          {{> _small-separator}}
         </div>
       {{/withSort}}
     </section>
-    </div>
   </div>
 </article>
+
+{{> _separator}}
 {{> _tickets}}
