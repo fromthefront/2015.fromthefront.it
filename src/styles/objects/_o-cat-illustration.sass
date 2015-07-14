@@ -1,0 +1,18 @@
+.o-cat-illustration
+  position: relative
+  z-index: z-index(decorations)
+  height: 0
+  padding-bottom: 70%
+  +media(">=tablet-landscape")
+    padding-bottom: $regular-col
+
+  &__left,
+  &__right
+    width: 50%
+    max-width: 29rem
+
+  &__left
+    +position(absolute, top 0 left 0)
+
+  &__right
+    +position(absolute, top 0 right 0)

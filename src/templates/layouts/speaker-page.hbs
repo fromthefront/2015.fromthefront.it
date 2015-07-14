@@ -2,44 +2,40 @@
 layout: ./src/templates/layouts/default.hbs
 title: <%= name %>
 ---
-<a href="../" class="o-topbar">
-  {{site.topbar}}
-</a>
-
 <article class="l-page">
+  <header class="l-page__header l-page__header">
+    <h1 class="l-page__title">
+      {{{site.speaker_page_title}}}
+    </h1>
+  </header>
+  <div class="l-page__illustration">
+    {{> _cat-illustration}}
+  </div>
   <div class="l-page__main l-page__main--large">
-    <header class="l-page__header">
-      <h1 class="l-page__title">
-        {{site.speaker_page_title}}
-      </h1>
-      <a href="#tickets" class="l-page__subtitle">
-        {{site.call_to_action}}!
-      </a>
-    </header>
     <article class="m-speaker-page">
-      <section class="m-speaker-page__info">
-        <header class="m-speaker-page__header">
-          <p class="m-speaker-page__pre-title">
-            Introducing
-          </p>
-          <h1 class="m-speaker-page__title">
-            {{name}}
-          </h1>
-          <a href="http://twitter.com/{{twitter}}" class="m-speaker-page__twitter">@{{twitter}}</a>
-        </header>
-        <div class="m-speaker-page__avatar">
-          {{#if img}}
-            <img src="{{page.assets}}/images/{{img}}" alt="A photo of {{name}}" class="m-speaker-page__img">
-          {{else}}
-            <img src="{{page.assets}}/images/{{hyphenate (lowercase name) }}.jpg"alt="A photo of {{name}}" class="m-speaker-page__img">
-          {{/if}}
-        </div>
-      </section>
+      <header class="m-speaker-page__header">
+        <p class="m-speaker-page__pre-title">
+          Introducing
+        </p>
+        <h1 class="m-speaker-page__title">
+          {{name}}
+        </h1>
+        <a href="http://twitter.com/{{twitter}}" class="m-speaker-page__twitter">@{{twitter}}</a>
+      </header>
+
       <div class="m-speaker-page__main">
-        <section class="m-speaker-page__bio">
-          <p class="m-speaker-page__text">
-            {{bio}}
-          </p>
+
+        <section class="m-speaker-page__info">
+          <div class="m-speaker-page__avatar">
+            <div class="m-speaker-page__image" style="background-image: url('{{page.assets}}/images/avatar/{{hyphenate (lowercase name) }}-large.jpg')"></div>
+          </div>
+          <section class="m-speaker-page__bio">
+            <div class="m-speaker-page__text">
+{{#markdown}}
+{{bio}}
+{{/markdown}}
+            </div>
+          </section>
         </section>
 
         {{#if talk-abstract}}
@@ -53,7 +49,15 @@ title: <%= name %>
         </section>
         {{/if}}
       </div>
+      <footer class="m-belt">
+        <div class="m-belt__inner">
+          <a href="{{relative page.dest "./"}}/index.html#speakers" class="m-belt__action m-belt__action--bold">
+            {{site.backtospeakers}}
+          </a>
+        </div>
+      </footer>
     </article>
   </div>
 </article>
+{{> _separator}}
 {{> _tickets}}

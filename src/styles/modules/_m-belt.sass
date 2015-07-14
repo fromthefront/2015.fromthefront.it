@@ -1,0 +1,16 @@
+.m-belt
+  text-align: center
+  font-weight: 900
+  padding: 0 $section-padding
+  margin: $section-padding auto
+  width: 90%
+
+  &__inner,
+  &__action
+    +media(">=tablet-portrait")
+      +h3
+      font-weight: 700
+
+  &__action--bold
+    text-transform: uppercase
+    letter-spacing: 1px

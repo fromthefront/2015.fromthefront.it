@@ -1,14 +1,13 @@
 <article class="m-speaker">
-
-  {{#if bio}}<a 
-    href="./speakers/{{hyphenate (lowercase name) }}.html">{{/if}}
-  
-    {{#if img}}
-      <img src="./assets/images/{{img}}" alt="A photo of {{name}}" class="m-speaker__img">
+  <a
+    {{#if bio}}
+      href="./speakers/{{hyphenate (lowercase name) }}.html"
     {{else}}
-      <img src="./assets/images/{{hyphenate (lowercase name) }}.jpg"alt="A photo of {{name}}" class="m-speaker__img">
-    {{/if}}
-  {{#if bio}}</a>{{/if}}
+      href="http://twitter.com/{{twitter}}"
+    {{/if}} >
+    <div class="m-speaker__img {{hyphenate (lowercase name) }}">
+    </div>
+  </a>
   <div class="m-speaker__inner">
     <h2 class="m-speaker__name">
       {{name}}

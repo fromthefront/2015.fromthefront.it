@@ -1,34 +1,57 @@
-.m-teaser
-  =teaser-bold
-    line-height: 1.2
-    font-size: em(24)
-    margin-bottom: .5em
-    +respond-min($bp__tablet-portrait)
+=teaser-font-size($scale)
+  font-size: 1em
+  @if $scale
+    +media(">=tablet-portrait")
       font-size: em($ratio__large)
 
+=teaser-bold($scale)
+  +teaser-font-size($scale)
+  color: color(purple)
+  font-weight: 700
+  line-height: 1.2
+  margin-bottom: .5em
 
+.m-teaser
   @extend .l-block
+  position: relative
+  z-index: z-index(header)
+  margin-top: $h1-margin-top
   text-align: center
 
-  &__when
-    +teaser-bold
-    font-family: $fonts--comp
-
   &__intro
-    font-style: italic
-    margin: 1em 0 1.2em
-    +respond-min($bp__tablet-portrait)
-      font-size: em($ratio__medium)
+    +teaser-bold(false)
+    text-transform: uppercase
+    letter-spacing: 1px
+    margin-bottom: $rithm
+
+  &__when
+    +teaser-bold(scale)
+
+  &__title
+    margin: 0 auto $h1-margin-bottom
+    font-family: $fonts--comp
+    font-size: 14vw
+    line-height: 1
+    +media(">=phone-landscape")
+      font-size: calc(3.5rem + 1vw)
+
+    +media(">=tablet-landscape")
+      font-size: calc(4rem + 1vw)
+
+    +media(">=desktop")
+      max-width: $regular-col + 1
+      font-size: calc(4.25rem + 2.5vw)
 
   &__where
-    +teaser-bold
+    +teaser-bold(scale)
 
   &__button
-    font-style: italic
     @extend .o-button
-    @extend .margin-top-regular
-    background-color: $color__marco;
-    &:hover
-      background-color: $color__black;
+    margin-top: $rithm
+    +media(">=desktop")
+      font-size: $h3-font-size
+    +on-interaction
+      background-color: color(purple)
+      color: color(white) !important
 
 

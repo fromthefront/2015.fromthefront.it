@@ -3,16 +3,23 @@
   text-align: center
 
   &__title
-    @extend .as-h3
     padding: 0 1rem
     font-family: $fonts--comp
     font-style: italic
     padding: 0 1rem
+    line-height: 1.4
+    margin-bottom: $rithm * 2
+    span
+      &:first-child,
+      &:last-child
+        display: block
 
   &__list
     margin: 0 auto
     max-width: $row-width
-    +respond-min($bp__tablet-landscape)
+    +media(">=tablet-portrait")
+      margin-top: $rithm * 3
+    +media(">=tablet-landscape")
       max-width: $large-col
 
   &__smallprint
@@ -25,11 +32,17 @@
     vertical-align: top
     width: 100%
     padding: 0 1rem
-    +respond-min($bp__phone)
+    &:nth-child(odd)
+      transform: translateY(-15%)
+    +media(">=phone")
       width: 49%
       max-width: 15rem
-    +respond-min($bp__desktop)
+    +media(">=tablet-portrait")
+      margin-bottom: 3rem
+    +media(">=desktop")
       padding: 0 2rem
+    &:last-child
+      margin-bottom: 0
 
-  +respond-min($bp__tablet-portrait)
-    margin: 7rem auto
+  +media(">=tablet-portrait")
+    margin: 7rem auto 0

@@ -32,8 +32,9 @@
   "twitter": "csswizardry",
   "shortinfo": "",
   "order": 12,
-  "bio": "Harry is an award-winning Consultant Front-end Architect, designer, developer, writer, and speaker from the UK. Previously a Senior Developer at BSkyB, he now helps teams all over the world build better products. Consultant Front-end Architect for G‪oogle‬, ‪UN‬, ‪Etsy‬, K‪ickstarter‬, ‪BBC‬, U‪nilever‬, ‪Deloitte‬, and more. He specialises in authoring and scaling product-scale UIs, he is the lead developer of inuitcss, a powerful, scalable, Sass-based, BEM, OOCSS framework."
-},{
+  "bio": "With a client list including *Google*, the *United Nations*, and *Unilever*, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs. He writes on the subjects of CSS architecture, performance, and scalability at [csswizardry.com](http://csswizardry.com); develops and maintains [inuitcss](https://github.com/inuitcss); authored [CSS Guidelines](http://cssguidelin.es); and Tweets at [@csswizardry](http://twitter.com/csswizardry)."
+}
+,{
   "name": "James Hall",
   "twitter": "mrrio",
   "shortinfo": "",
@@ -84,9 +85,7 @@
   "name": "Tim Kadlec",
   "twitter": "tkadlec",
   "shortinfo": "",
-  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at ‪Akamai‬. He is the author of 'Implementing Responsive Design: Building sites for an anywhere, everywhere web' and was a contributing author for 'Smashing‬ Book #4: New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts The Path to Performance Podcast.",
-  "talk-title": "In Between",
-  "talk-abstract": "Historically, the intermediary states of our sites have been neglected. The transition between the starting and ending points has been treated as an afterthought, one we begrudgingly fix because they’re there and they stick out like a sore thumb. But the web is maturing, and our roles are shifting as it does. Through careful choreography we can make sure that these intermediate states feel intentional. That they don’t break our users state of flow, but help to maintain it. The result will be more delightful experiences for our users—from start to finish and every step along the way."
+  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at ‪Akamai‬. He is the author of 'Implementing Responsive Design: Building sites for an anywhere, everywhere web' and was a contributing author for 'Smashing‬ Book #4: New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts The Path to Performance Podcast."
 }
 ,{
   "name": "Una Kravets",

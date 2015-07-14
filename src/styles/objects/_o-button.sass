@@ -1,38 +1,22 @@
-// Objects
-//
-// Prefixed with `o-` and usually consist of the smaller build units.
-//
-// Styleguide 1
-
-// Basic Buttons
-//
-// Markup: <a href="#" class="o-button {$modifiers} " > A link button </a>
-// <button class="o-button {$modifiers}">A button tag</button>
-// <input type="button" class="o-button {$modifiers}" value="An input button">
-//
-// .o-button--primary   - Primary style.
-// .o-button--secondary - Secondary buttons.
-// .o-button--light     - Light variation.
-// .o-button--small     - Smaller height.
-// .o-button--compact   - Compact width.
-//
-// Styleguide 1.1
-
 .o-button
   display: inline-block
   text-align: center
   line-height: 1.2
   padding: 0.5em 1em
-  border-radius: $border-radius
-  background: $color__black
-  color: $color__white
+  border-radius: 5px
+  background-image: none
+  background-color: $color__primary
+  color: $color__text
   max-width: $narrow-col
+  text-transform: uppercase
+  font-weight: 700
   transition: background-color $transition__duration, color $transition__duration
   &:visited
-    color: $color__white
+    background-color: $color__primary
+    color: $color__text
   +on-interaction
     background-color: $color__primary
-    color: $color__white !important
+    color: $color__text!important
 
 .o-button--small
   font-size: em($ratio__small)

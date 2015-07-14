@@ -1,0 +1,487 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$amelia-andersdotter-name: 'amelia-andersdotter';
+$amelia-andersdotter-x: 128px;
+$amelia-andersdotter-y: 0px;
+$amelia-andersdotter-offset-x: -128px;
+$amelia-andersdotter-offset-y: 0px;
+$amelia-andersdotter-width: 128px;
+$amelia-andersdotter-height: 128px;
+$amelia-andersdotter-total-width: 512px;
+$amelia-andersdotter-total-height: 512px;
+$amelia-andersdotter-image: '../images/speakers-sprite.jpg';
+$amelia-andersdotter: (128px, 0px, -128px, 0px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'amelia-andersdotter', );
+$andrew-pendrick-name: 'andrew-pendrick';
+$andrew-pendrick-x: 128px;
+$andrew-pendrick-y: 256px;
+$andrew-pendrick-offset-x: -128px;
+$andrew-pendrick-offset-y: -256px;
+$andrew-pendrick-width: 128px;
+$andrew-pendrick-height: 128px;
+$andrew-pendrick-total-width: 512px;
+$andrew-pendrick-total-height: 512px;
+$andrew-pendrick-image: '../images/speakers-sprite.jpg';
+$andrew-pendrick: (128px, 256px, -128px, -256px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'andrew-pendrick', );
+$anna-debenham-name: 'anna-debenham';
+$anna-debenham-x: 0px;
+$anna-debenham-y: 128px;
+$anna-debenham-offset-x: 0px;
+$anna-debenham-offset-y: -128px;
+$anna-debenham-width: 128px;
+$anna-debenham-height: 128px;
+$anna-debenham-total-width: 512px;
+$anna-debenham-total-height: 512px;
+$anna-debenham-image: '../images/speakers-sprite.jpg';
+$anna-debenham: (0px, 128px, 0px, -128px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'anna-debenham', );
+$davide-casali-name: 'davide-casali';
+$davide-casali-x: 128px;
+$davide-casali-y: 128px;
+$davide-casali-offset-x: -128px;
+$davide-casali-offset-y: -128px;
+$davide-casali-width: 128px;
+$davide-casali-height: 128px;
+$davide-casali-total-width: 512px;
+$davide-casali-total-height: 512px;
+$davide-casali-image: '../images/speakers-sprite.jpg';
+$davide-casali: (128px, 128px, -128px, -128px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'davide-casali', );
+$harry-roberts-name: 'harry-roberts';
+$harry-roberts-x: 256px;
+$harry-roberts-y: 0px;
+$harry-roberts-offset-x: -256px;
+$harry-roberts-offset-y: 0px;
+$harry-roberts-width: 128px;
+$harry-roberts-height: 128px;
+$harry-roberts-total-width: 512px;
+$harry-roberts-total-height: 512px;
+$harry-roberts-image: '../images/speakers-sprite.jpg';
+$harry-roberts: (256px, 0px, -256px, 0px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'harry-roberts', );
+$james-hall-name: 'james-hall';
+$james-hall-x: 256px;
+$james-hall-y: 128px;
+$james-hall-offset-x: -256px;
+$james-hall-offset-y: -128px;
+$james-hall-width: 128px;
+$james-hall-height: 128px;
+$james-hall-total-width: 512px;
+$james-hall-total-height: 512px;
+$james-hall-image: '../images/speakers-sprite.jpg';
+$james-hall: (256px, 128px, -256px, -128px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'james-hall', );
+$petro-salema-name: 'petro-salema';
+$petro-salema-x: 0px;
+$petro-salema-y: 256px;
+$petro-salema-offset-x: 0px;
+$petro-salema-offset-y: -256px;
+$petro-salema-width: 128px;
+$petro-salema-height: 128px;
+$petro-salema-total-width: 512px;
+$petro-salema-total-height: 512px;
+$petro-salema-image: '../images/speakers-sprite.jpg';
+$petro-salema: (0px, 256px, 0px, -256px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'petro-salema', );
+$razan-sadeq-name: 'razan-sadeq';
+$razan-sadeq-x: 0px;
+$razan-sadeq-y: 0px;
+$razan-sadeq-offset-x: 0px;
+$razan-sadeq-offset-y: 0px;
+$razan-sadeq-width: 128px;
+$razan-sadeq-height: 128px;
+$razan-sadeq-total-width: 512px;
+$razan-sadeq-total-height: 512px;
+$razan-sadeq-image: '../images/speakers-sprite.jpg';
+$razan-sadeq: (0px, 0px, 0px, 0px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'razan-sadeq', );
+$sally-jenkinson-name: 'sally-jenkinson';
+$sally-jenkinson-x: 256px;
+$sally-jenkinson-y: 256px;
+$sally-jenkinson-offset-x: -256px;
+$sally-jenkinson-offset-y: -256px;
+$sally-jenkinson-width: 128px;
+$sally-jenkinson-height: 128px;
+$sally-jenkinson-total-width: 512px;
+$sally-jenkinson-total-height: 512px;
+$sally-jenkinson-image: '../images/speakers-sprite.jpg';
+$sally-jenkinson: (256px, 256px, -256px, -256px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'sally-jenkinson', );
+$shane-hudson-name: 'shane-hudson';
+$shane-hudson-x: 384px;
+$shane-hudson-y: 0px;
+$shane-hudson-offset-x: -384px;
+$shane-hudson-offset-y: 0px;
+$shane-hudson-width: 128px;
+$shane-hudson-height: 128px;
+$shane-hudson-total-width: 512px;
+$shane-hudson-total-height: 512px;
+$shane-hudson-image: '../images/speakers-sprite.jpg';
+$shane-hudson: (384px, 0px, -384px, 0px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'shane-hudson', );
+$sharon-steed-name: 'sharon-steed';
+$sharon-steed-x: 384px;
+$sharon-steed-y: 128px;
+$sharon-steed-offset-x: -384px;
+$sharon-steed-offset-y: -128px;
+$sharon-steed-width: 128px;
+$sharon-steed-height: 128px;
+$sharon-steed-total-width: 512px;
+$sharon-steed-total-height: 512px;
+$sharon-steed-image: '../images/speakers-sprite.jpg';
+$sharon-steed: (384px, 128px, -384px, -128px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'sharon-steed', );
+$tim-kadlec-name: 'tim-kadlec';
+$tim-kadlec-x: 384px;
+$tim-kadlec-y: 256px;
+$tim-kadlec-offset-x: -384px;
+$tim-kadlec-offset-y: -256px;
+$tim-kadlec-width: 128px;
+$tim-kadlec-height: 128px;
+$tim-kadlec-total-width: 512px;
+$tim-kadlec-total-height: 512px;
+$tim-kadlec-image: '../images/speakers-sprite.jpg';
+$tim-kadlec: (384px, 256px, -384px, -256px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'tim-kadlec', );
+$una-kravets-name: 'una-kravets';
+$una-kravets-x: 0px;
+$una-kravets-y: 384px;
+$una-kravets-offset-x: 0px;
+$una-kravets-offset-y: -384px;
+$una-kravets-width: 128px;
+$una-kravets-height: 128px;
+$una-kravets-total-width: 512px;
+$una-kravets-total-height: 512px;
+$una-kravets-image: '../images/speakers-sprite.jpg';
+$una-kravets: (0px, 384px, 0px, -384px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'una-kravets', );
+$zach-holman-name: 'zach-holman';
+$zach-holman-x: 128px;
+$zach-holman-y: 384px;
+$zach-holman-offset-x: -128px;
+$zach-holman-offset-y: -384px;
+$zach-holman-width: 128px;
+$zach-holman-height: 128px;
+$zach-holman-total-width: 512px;
+$zach-holman-total-height: 512px;
+$zach-holman-image: '../images/speakers-sprite.jpg';
+$zach-holman: (128px, 384px, -128px, -384px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'zach-holman', );
+$zoe-gillenwater-name: 'zoe-gillenwater';
+$zoe-gillenwater-x: 256px;
+$zoe-gillenwater-y: 384px;
+$zoe-gillenwater-offset-x: -256px;
+$zoe-gillenwater-offset-y: -384px;
+$zoe-gillenwater-width: 128px;
+$zoe-gillenwater-height: 128px;
+$zoe-gillenwater-total-width: 512px;
+$zoe-gillenwater-total-height: 512px;
+$zoe-gillenwater-image: '../images/speakers-sprite.jpg';
+$zoe-gillenwater: (256px, 384px, -256px, -384px, 128px, 128px, 512px, 512px, '../images/speakers-sprite.jpg', 'zoe-gillenwater', );
+$amelia-andersdotter-2x-name: 'amelia-andersdotter-2x';
+$amelia-andersdotter-2x-x: 256px;
+$amelia-andersdotter-2x-y: 0px;
+$amelia-andersdotter-2x-offset-x: -256px;
+$amelia-andersdotter-2x-offset-y: 0px;
+$amelia-andersdotter-2x-width: 256px;
+$amelia-andersdotter-2x-height: 256px;
+$amelia-andersdotter-2x-total-width: 1024px;
+$amelia-andersdotter-2x-total-height: 1024px;
+$amelia-andersdotter-2x-image: '../images/speakers-sprite-2x.jpg';
+$amelia-andersdotter-2x: (256px, 0px, -256px, 0px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'amelia-andersdotter-2x', );
+$andrew-pendrick-2x-name: 'andrew-pendrick-2x';
+$andrew-pendrick-2x-x: 256px;
+$andrew-pendrick-2x-y: 512px;
+$andrew-pendrick-2x-offset-x: -256px;
+$andrew-pendrick-2x-offset-y: -512px;
+$andrew-pendrick-2x-width: 256px;
+$andrew-pendrick-2x-height: 256px;
+$andrew-pendrick-2x-total-width: 1024px;
+$andrew-pendrick-2x-total-height: 1024px;
+$andrew-pendrick-2x-image: '../images/speakers-sprite-2x.jpg';
+$andrew-pendrick-2x: (256px, 512px, -256px, -512px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'andrew-pendrick-2x', );
+$anna-debenham-2x-name: 'anna-debenham-2x';
+$anna-debenham-2x-x: 0px;
+$anna-debenham-2x-y: 256px;
+$anna-debenham-2x-offset-x: 0px;
+$anna-debenham-2x-offset-y: -256px;
+$anna-debenham-2x-width: 256px;
+$anna-debenham-2x-height: 256px;
+$anna-debenham-2x-total-width: 1024px;
+$anna-debenham-2x-total-height: 1024px;
+$anna-debenham-2x-image: '../images/speakers-sprite-2x.jpg';
+$anna-debenham-2x: (0px, 256px, 0px, -256px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'anna-debenham-2x', );
+$davide-casali-2x-name: 'davide-casali-2x';
+$davide-casali-2x-x: 256px;
+$davide-casali-2x-y: 256px;
+$davide-casali-2x-offset-x: -256px;
+$davide-casali-2x-offset-y: -256px;
+$davide-casali-2x-width: 256px;
+$davide-casali-2x-height: 256px;
+$davide-casali-2x-total-width: 1024px;
+$davide-casali-2x-total-height: 1024px;
+$davide-casali-2x-image: '../images/speakers-sprite-2x.jpg';
+$davide-casali-2x: (256px, 256px, -256px, -256px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'davide-casali-2x', );
+$harry-roberts-2x-name: 'harry-roberts-2x';
+$harry-roberts-2x-x: 512px;
+$harry-roberts-2x-y: 0px;
+$harry-roberts-2x-offset-x: -512px;
+$harry-roberts-2x-offset-y: 0px;
+$harry-roberts-2x-width: 256px;
+$harry-roberts-2x-height: 256px;
+$harry-roberts-2x-total-width: 1024px;
+$harry-roberts-2x-total-height: 1024px;
+$harry-roberts-2x-image: '../images/speakers-sprite-2x.jpg';
+$harry-roberts-2x: (512px, 0px, -512px, 0px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'harry-roberts-2x', );
+$james-hall-2x-name: 'james-hall-2x';
+$james-hall-2x-x: 512px;
+$james-hall-2x-y: 256px;
+$james-hall-2x-offset-x: -512px;
+$james-hall-2x-offset-y: -256px;
+$james-hall-2x-width: 256px;
+$james-hall-2x-height: 256px;
+$james-hall-2x-total-width: 1024px;
+$james-hall-2x-total-height: 1024px;
+$james-hall-2x-image: '../images/speakers-sprite-2x.jpg';
+$james-hall-2x: (512px, 256px, -512px, -256px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'james-hall-2x', );
+$petro-salema-2x-name: 'petro-salema-2x';
+$petro-salema-2x-x: 0px;
+$petro-salema-2x-y: 512px;
+$petro-salema-2x-offset-x: 0px;
+$petro-salema-2x-offset-y: -512px;
+$petro-salema-2x-width: 256px;
+$petro-salema-2x-height: 256px;
+$petro-salema-2x-total-width: 1024px;
+$petro-salema-2x-total-height: 1024px;
+$petro-salema-2x-image: '../images/speakers-sprite-2x.jpg';
+$petro-salema-2x: (0px, 512px, 0px, -512px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'petro-salema-2x', );
+$razan-sadeq-2x-name: 'razan-sadeq-2x';
+$razan-sadeq-2x-x: 0px;
+$razan-sadeq-2x-y: 0px;
+$razan-sadeq-2x-offset-x: 0px;
+$razan-sadeq-2x-offset-y: 0px;
+$razan-sadeq-2x-width: 256px;
+$razan-sadeq-2x-height: 256px;
+$razan-sadeq-2x-total-width: 1024px;
+$razan-sadeq-2x-total-height: 1024px;
+$razan-sadeq-2x-image: '../images/speakers-sprite-2x.jpg';
+$razan-sadeq-2x: (0px, 0px, 0px, 0px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'razan-sadeq-2x', );
+$sally-jenkinson-2x-name: 'sally-jenkinson-2x';
+$sally-jenkinson-2x-x: 512px;
+$sally-jenkinson-2x-y: 512px;
+$sally-jenkinson-2x-offset-x: -512px;
+$sally-jenkinson-2x-offset-y: -512px;
+$sally-jenkinson-2x-width: 256px;
+$sally-jenkinson-2x-height: 256px;
+$sally-jenkinson-2x-total-width: 1024px;
+$sally-jenkinson-2x-total-height: 1024px;
+$sally-jenkinson-2x-image: '../images/speakers-sprite-2x.jpg';
+$sally-jenkinson-2x: (512px, 512px, -512px, -512px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'sally-jenkinson-2x', );
+$shane-hudson-2x-name: 'shane-hudson-2x';
+$shane-hudson-2x-x: 768px;
+$shane-hudson-2x-y: 0px;
+$shane-hudson-2x-offset-x: -768px;
+$shane-hudson-2x-offset-y: 0px;
+$shane-hudson-2x-width: 256px;
+$shane-hudson-2x-height: 256px;
+$shane-hudson-2x-total-width: 1024px;
+$shane-hudson-2x-total-height: 1024px;
+$shane-hudson-2x-image: '../images/speakers-sprite-2x.jpg';
+$shane-hudson-2x: (768px, 0px, -768px, 0px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'shane-hudson-2x', );
+$sharon-steed-2x-name: 'sharon-steed-2x';
+$sharon-steed-2x-x: 768px;
+$sharon-steed-2x-y: 256px;
+$sharon-steed-2x-offset-x: -768px;
+$sharon-steed-2x-offset-y: -256px;
+$sharon-steed-2x-width: 256px;
+$sharon-steed-2x-height: 256px;
+$sharon-steed-2x-total-width: 1024px;
+$sharon-steed-2x-total-height: 1024px;
+$sharon-steed-2x-image: '../images/speakers-sprite-2x.jpg';
+$sharon-steed-2x: (768px, 256px, -768px, -256px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'sharon-steed-2x', );
+$tim-kadlec-2x-name: 'tim-kadlec-2x';
+$tim-kadlec-2x-x: 768px;
+$tim-kadlec-2x-y: 512px;
+$tim-kadlec-2x-offset-x: -768px;
+$tim-kadlec-2x-offset-y: -512px;
+$tim-kadlec-2x-width: 256px;
+$tim-kadlec-2x-height: 256px;
+$tim-kadlec-2x-total-width: 1024px;
+$tim-kadlec-2x-total-height: 1024px;
+$tim-kadlec-2x-image: '../images/speakers-sprite-2x.jpg';
+$tim-kadlec-2x: (768px, 512px, -768px, -512px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'tim-kadlec-2x', );
+$una-kravets-2x-name: 'una-kravets-2x';
+$una-kravets-2x-x: 0px;
+$una-kravets-2x-y: 768px;
+$una-kravets-2x-offset-x: 0px;
+$una-kravets-2x-offset-y: -768px;
+$una-kravets-2x-width: 256px;
+$una-kravets-2x-height: 256px;
+$una-kravets-2x-total-width: 1024px;
+$una-kravets-2x-total-height: 1024px;
+$una-kravets-2x-image: '../images/speakers-sprite-2x.jpg';
+$una-kravets-2x: (0px, 768px, 0px, -768px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'una-kravets-2x', );
+$zach-holman-2x-name: 'zach-holman-2x';
+$zach-holman-2x-x: 256px;
+$zach-holman-2x-y: 768px;
+$zach-holman-2x-offset-x: -256px;
+$zach-holman-2x-offset-y: -768px;
+$zach-holman-2x-width: 256px;
+$zach-holman-2x-height: 256px;
+$zach-holman-2x-total-width: 1024px;
+$zach-holman-2x-total-height: 1024px;
+$zach-holman-2x-image: '../images/speakers-sprite-2x.jpg';
+$zach-holman-2x: (256px, 768px, -256px, -768px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'zach-holman-2x', );
+$zoe-gillenwater-2x-name: 'zoe-gillenwater-2x';
+$zoe-gillenwater-2x-x: 512px;
+$zoe-gillenwater-2x-y: 768px;
+$zoe-gillenwater-2x-offset-x: -512px;
+$zoe-gillenwater-2x-offset-y: -768px;
+$zoe-gillenwater-2x-width: 256px;
+$zoe-gillenwater-2x-height: 256px;
+$zoe-gillenwater-2x-total-width: 1024px;
+$zoe-gillenwater-2x-total-height: 1024px;
+$zoe-gillenwater-2x-image: '../images/speakers-sprite-2x.jpg';
+$zoe-gillenwater-2x: (512px, 768px, -512px, -768px, 256px, 256px, 1024px, 1024px, '../images/speakers-sprite-2x.jpg', 'zoe-gillenwater-2x', );
+$spritesheet-width: 512px;
+$spritesheet-height: 512px;
+$spritesheet-image: '../images/speakers-sprite.jpg';
+$spritesheet-sprites: ($amelia-andersdotter, $andrew-pendrick, $anna-debenham, $davide-casali, $harry-roberts, $james-hall, $petro-salema, $razan-sadeq, $sally-jenkinson, $shane-hudson, $sharon-steed, $tim-kadlec, $una-kravets, $zach-holman, $zoe-gillenwater, );
+$spritesheet: (512px, 512px, '../images/speakers-sprite.jpg', $spritesheet-sprites, );
+$retina-spritesheet-width: 1024px;
+$retina-spritesheet-height: 1024px;
+$retina-spritesheet-image: '../images/speakers-sprite-2x.jpg';
+$retina-spritesheet-sprites: ($amelia-andersdotter-2x, $andrew-pendrick-2x, $anna-debenham-2x, $davide-casali-2x, $harry-roberts-2x, $james-hall-2x, $petro-salema-2x, $razan-sadeq-2x, $sally-jenkinson-2x, $shane-hudson-2x, $sharon-steed-2x, $tim-kadlec-2x, $una-kravets-2x, $zach-holman-2x, $zoe-gillenwater-2x, );
+$retina-spritesheet: (1024px, 1024px, '../images/speakers-sprite-2x.jpg', $retina-spritesheet-sprites, );
+
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+$amelia-andersdotter-group-name: 'amelia-andersdotter';
+$amelia-andersdotter-group: ('amelia-andersdotter', $amelia-andersdotter, $amelia-andersdotter-2x, );
+$andrew-pendrick-group-name: 'andrew-pendrick';
+$andrew-pendrick-group: ('andrew-pendrick', $andrew-pendrick, $andrew-pendrick-2x, );
+$anna-debenham-group-name: 'anna-debenham';
+$anna-debenham-group: ('anna-debenham', $anna-debenham, $anna-debenham-2x, );
+$davide-casali-group-name: 'davide-casali';
+$davide-casali-group: ('davide-casali', $davide-casali, $davide-casali-2x, );
+$harry-roberts-group-name: 'harry-roberts';
+$harry-roberts-group: ('harry-roberts', $harry-roberts, $harry-roberts-2x, );
+$james-hall-group-name: 'james-hall';
+$james-hall-group: ('james-hall', $james-hall, $james-hall-2x, );
+$petro-salema-group-name: 'petro-salema';
+$petro-salema-group: ('petro-salema', $petro-salema, $petro-salema-2x, );
+$razan-sadeq-group-name: 'razan-sadeq';
+$razan-sadeq-group: ('razan-sadeq', $razan-sadeq, $razan-sadeq-2x, );
+$sally-jenkinson-group-name: 'sally-jenkinson';
+$sally-jenkinson-group: ('sally-jenkinson', $sally-jenkinson, $sally-jenkinson-2x, );
+$shane-hudson-group-name: 'shane-hudson';
+$shane-hudson-group: ('shane-hudson', $shane-hudson, $shane-hudson-2x, );
+$sharon-steed-group-name: 'sharon-steed';
+$sharon-steed-group: ('sharon-steed', $sharon-steed, $sharon-steed-2x, );
+$tim-kadlec-group-name: 'tim-kadlec';
+$tim-kadlec-group: ('tim-kadlec', $tim-kadlec, $tim-kadlec-2x, );
+$una-kravets-group-name: 'una-kravets';
+$una-kravets-group: ('una-kravets', $una-kravets, $una-kravets-2x, );
+$zach-holman-group-name: 'zach-holman';
+$zach-holman-group: ('zach-holman', $zach-holman, $zach-holman-2x, );
+$zoe-gillenwater-group-name: 'zoe-gillenwater';
+$zoe-gillenwater-group: ('zoe-gillenwater', $zoe-gillenwater, $zoe-gillenwater-2x, );
+$retina-groups: ($amelia-andersdotter-group, $andrew-pendrick-group, $anna-debenham-group, $davide-casali-group, $harry-roberts-group, $james-hall-group, $petro-salema-group, $razan-sadeq-group, $sally-jenkinson-group, $shane-hudson-group, $sharon-steed-group, $tim-kadlec-group, $una-kravets-group, $zach-holman-group, $zoe-gillenwater-group, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+$icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+
+.icon-home {
+  @include retina-sprite($icon-home-group);
+}
+*/
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+/*
+The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in SCSS
+
+@include retina-sprites($retina-groups);
+*/
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

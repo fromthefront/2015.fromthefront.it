@@ -1,1 +1,0 @@
-function winOpen(a,b,c){b=b||680,c=c||488,window.open(a.href,null,"height="+c+", width="+b+", toolbar=0, location=0, status=1, scrollbars=1, resizable=1")}!function(a,b){"use strict";if(a.addEventListener){var c="cutsthemustard";b.documentElement.className+=" "+c}}(this,this.document);

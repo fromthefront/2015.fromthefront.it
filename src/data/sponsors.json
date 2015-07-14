@@ -10,13 +10,27 @@
     {
      "order": 1,
      "weight": "medium",
+     "name": "Stamplay",
+     "link": "https://stamplay.com/",
+     "banner": "m-stamplay.png"
+    },
+    {
+     "order": 2,
+     "weight": "medium",
+     "name": "Banca Etica",
+     "link": "http://www.bancaetica.it/",
+     "banner": "m-bancaetica.png"
+    },
+    {
+     "order": 1,
+     "weight": "small",
      "name": "Siteground",
      "link": "https://www.siteground.com/",
      "banner": "m-siteground.png"
     },
     {
      "order": 1,
-     "weight": "small",
+     "weight": "xsmall",
      "name": "Balsamiq",
      "link": "https://balsamiq.com/",
      "banner": "s-balsamiq.png"

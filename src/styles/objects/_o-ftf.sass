@@ -2,21 +2,21 @@
   text-align: center
 
   &__logo
-    @extend .centered
+    margin: 0 auto
 
   &__text
     font-size: em($ratio__tiny)
     line-height: 1.25
     margin-bottom: 1rem
 
-  +respond-min($bp__tablet-portrait)
+  +media(">=tablet-portrait")
     &__text
       line-height: 1.4
 
     &__logo
       margin: 0
 
-  +respond-min($bp__tablet-landscape)
+  +media(">=tablet-landscape")
     &__logo
       float: left
       margin: 0.30rem 1rem 0.5rem 0

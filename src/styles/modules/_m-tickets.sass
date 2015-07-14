@@ -1,15 +1,10 @@
 .m-tickets
-  =ticket-col
-    width: 100%
-    +respond-min($bp__tablet-portrait)
-      width: 66.666%
-    +respond-min($bp__tablet-landscape)
-      width: 100%
 
   &__inner
-    @extend .padding-double
-    color: $color__black
-    background-color: $color__grey1
+    max-width: $regular-col
+    margin: 0 auto
+    color: $color__text
+    background-color: $color__background
 
   &__header
     @extend .l-block
@@ -21,34 +16,25 @@
 
   &__notes
     @extend .l-block
-    +ticket-col
+    width: 100%
     max-width: $regular-col
     margin-bottom: 0.5rem
     p
       margin-bottom: 0.5rem
 
     span
-      color: $color__grey4 !important
+      color: $color__text
       font-size: em($ratio__small)
 
 
   &__form
     @extend .l-block--container
-    +respond-min($bp__tablet-portrait)
+    +media(">=tablet-portrait")
       min-height: 32rem
-      background:
-        image: url('../images/mad-grey.jpg')
-        repeat: no-repeat
-        position: calc(100% - 1rem) calc(100% - 1rem)
-        size: auto 26rem
-    +respond-min($bp__tablet-landscape)
-      background:
-        size: auto 30rem
-        position: calc(100% - 1rem) calc(100% - 1rem)
 
-    iframe
-      +ticket-col
-      max-width: $regular-col !important
-      +respond-min($bp__tablet-portrait)
-        +l-block
+  &__table
+    max-width: $regular-col !important
+    padding: 0 ($section-padding / 2)
+    +media(">=tablet-portrait")
+      padding: 0 $section-padding
 

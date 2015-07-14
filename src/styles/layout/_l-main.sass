@@ -1,9 +1,66 @@
 .l-main
+  position: relative
+  z-index: z-index(text)
 
   &__opening
-    margin-bottom: 10rem
+    +clearfix
+    position: relative
+    overflow: hidden
+    padding: 0 0 2rem
+    margin: 0 auto
+
+  &__header
+    +position(absolute, top 0 left 0 right 0)
+    z-index: z-index(header)
+
+  &__illustration
+    margin-top: 12rem
 
   &__panel
-    margin: $section-padding*3.5 auto
+    margin: 0 auto $section-padding*3.5
+
+  &__panel--speakers
+    margin-top: -6rem
+    margin-bottom: 0
+
+  &__panel--tickets
+    margin-top: -4rem
+
+  &__panel--sponsors
+    margin-bottom: -2rem
+
+  +media(">=phone-landscape")
+    &__illustration
+      margin-top: 8rem
+
+  +media(">=tablet-portrait")
+    &__illustration
+      margin-top: 5rem
+    &__panel--speakers
+      margin-top: -20rem
+    &__header
+      top: 7vh
+    &__panel--sponsors
+      margin-bottom: -5rem
+
+  +media(">=tablet-landscape")
+    &__header
+      top: 10vh
+    &__panel--speakers
+      margin-top: -25rem
+    &__panel--tickets
+      margin-top: -8rem
+    &__panel--sponsors
+      margin-bottom: -4rem
+
+  +media(">=desktop")
+    &__illustration
+      margin-top: 0rem
+
+    &__header
+      top: calc(5rem + 6vh)
+
+    &__panel--sponsors
+      margin-bottom: -10rem
 
 

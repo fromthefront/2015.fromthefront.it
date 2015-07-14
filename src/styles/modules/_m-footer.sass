@@ -1,15 +1,23 @@
 .m-footer
-  @extend .l-block
-  @extend .padding-top-regular
-  @extend .clearfix
-  overflow: hidden
-  background: $color__grey1
-  color: $color__black
+  position: relative
+  z-index: z-index(under-text)
+  margin-top: -3rem
+  +media(">=tablet-portrait")
+    margin-top: -7rem
+  +media(">=tablet-landscape")
+    margin-top: -20rem
+
+  &__contentinfo
+    @extend .l-block
+    +clearfix
+    overflow: hidden
+    background: color(ink)
+    color: color(white)
+    margin-top: -1rem
 
   &__inner
     @extend .l-block--container
-    @extend .padding-regular
-    border-top: 5px solid $color__black
+    padding: $rithm 0 0
 
   &__section
     text-align: center
@@ -19,7 +27,7 @@
         margin-bottom: 0
         font-size: em($ratio__tiny)
 
-  +respond-min($bp__tablet-portrait)
+  +media(">=tablet-portrait")
 
     &__inner
       display: flex

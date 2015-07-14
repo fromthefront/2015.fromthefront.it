@@ -1,28 +1,33 @@
 <footer class="m-footer" role="contentinfo">
-    <div class="m-footer__inner">
-        <div class="m-footer__section o-ftf">
-            <img class="o-ftf__logo" src="{{assets}}/images/logo_ftf.png" alt="From the Front Logo">
-            <ul class="o-ftf__text vcard">
-                <li class="o-ftf__text-item fn organization">Associazione From the Front</li>
-                <li class="o-ftf__text-item street-address">via Caravaggio 36</li>
-                <li class="o-ftf__text-item"><span class="zip">40033</span> <span class="locality">Casalecchio di Reno (BO)</span> <span class="state">Italy</span></li>
-                <li class="o-ftf__text-item vat">C.F. 91344080378</li>
-            </ul>
-        </div>
-
-         <div class="m-footer__section m-footer__section--meta">
-            <p><a href="http://eepurl.com/inAxQ" onclick="winOpen(this, 680, 700); return false">Subscribe to the Newsletter</a></p>
-            <p class="code-of-conduct">
-              <a href="./code-of-conduct.html">
-                Code of conduct
-              </a>
-            </p>
-            <p class="privacy">
-                <a class="privacy__link iubenda-nostyle" id="iubenda-embed" title="Privacy Policy" href="https://www.iubenda.com/privacy-policy/155299">
-                    Privacy
+    {{> _footer-illustration}}
+    <div class="m-footer__contentinfo">
+        <div class="m-footer__inner">
+            <div class="m-footer__section o-ftf">
+                <a href="{{relative page.dest "./"}}">
+                  <img class="o-ftf__logo" src="{{assets}}/images/logo_ftf.png" alt="From the Front Logo">
                 </a>
-                <script>(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; w.addEventListener ? w.addEventListener("load", loader, false) : w.attachEvent("onload", loader);})(window, document);</script>
-            </p>
+                <ul class="o-ftf__text vcard">
+                    <li class="o-ftf__text-item fn organization">Associazione From the Front</li>
+                    <li class="o-ftf__text-item street-address">via Caravaggio 36</li>
+                    <li class="o-ftf__text-item"><span class="zip">40033</span> <span class="locality">Casalecchio di Reno (BO)</span> <span class="state">Italy</span></li>
+                    <li class="o-ftf__text-item vat">C.F. 91344080378</li>
+                </ul>
+            </div>
+
+             <div class="m-footer__section m-footer__section--meta">
+                <p><a href="http://eepurl.com/inAxQ" onclick="winOpen(this, 680, 700); return false">Subscribe to the Newsletter</a></p>
+                <p class="code-of-conduct">
+                  <a href="{{relative page.dest "./"}}/code-of-conduct.html">
+                    Code of conduct
+                  </a>
+                </p>
+                <p class="privacy">
+                    <a class="privacy__link iubenda-nostyle" id="iubenda-embed" title="Privacy Policy" href="https://www.iubenda.com/privacy-policy/155299">
+                        Privacy
+                    </a>
+                    <script>(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; w.addEventListener ? w.addEventListener("load", loader, false) : w.attachEvent("onload", loader);})(window, document);</script>
+                </p>
+            </div>
         </div>
     </div>
 </footer>

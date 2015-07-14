@@ -15,7 +15,7 @@
   </div>
 
   {{!-- medium sponsors --}}
-  <div class="l-sponsors__section">
+  <div class="l-sponsors__section l-sponsors__section--medium">
     {{#withSort sponsors.list "order"}}
       {{#is weight "medium"}}
         <div class="l-sponsors__slot l-sponsors__slot--{{weight}}">
@@ -29,6 +29,17 @@
   <div class="l-sponsors__section">
     {{#withSort sponsors.list "order"}}
       {{#is weight "small"}}
+        <div class="l-sponsors__slot l-sponsors__slot--{{weight}}">
+          {{> _sponsor}}
+        </div>
+      {{/is}}
+    {{/withSort}}
+  </div>
+
+  {{!-- xsmall sponsors --}}
+  <div class="l-sponsors__section">
+    {{#withSort sponsors.list "order"}}
+      {{#is weight "xsmall"}}
         <div class="l-sponsors__slot l-sponsors__slot--{{weight}}">
           {{> _sponsor}}
         </div>

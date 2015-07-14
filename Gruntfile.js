@@ -6,7 +6,8 @@ module.exports = function(grunt) {
 
   require('time-grunt')(grunt);
   require('jit-grunt')(grunt, {
-    useminPrepare: 'grunt-usemin'
+    useminPrepare: 'grunt-usemin',
+    sprite: 'grunt-spritesmith'
   });
 
   // Wrapping up some data
@@ -31,7 +32,7 @@ module.exports = function(grunt) {
 
     sass_directory_import: {
       files: {
-        src: ['<%= config.src %>/styles/{base,modules,layout,objects}/_all.sass']
+        src: ['<%= config.src %>/styles/{base,modules,layout,objects,themes}/_all.sass']
       }
     },
 
@@ -69,6 +70,10 @@ module.exports = function(grunt) {
     concat: {
       app: {
         src: [
+          './node_modules/gsap/src/minified/TweenMax.min.js',
+          '<%= config.src %>/js/animations/flowers.js',
+          '<%= config.src %>/js/animations/parallax.js',
+          '<%= config.src %>/js/animations/clouds.js',
           '<%= config.src %>/js/app.js'
         ],
         dest: '<%= config.dist %>/assets/js/app.js'
@@ -153,7 +158,7 @@ module.exports = function(grunt) {
           svgoPlugins: [{
             removeViewBox: false,
             removeEmptyAttrs: true,
-            cleanupIDs: true,
+            cleanupIDs: false,
             removeDoctype: true
             }]
         },
@@ -264,7 +269,7 @@ module.exports = function(grunt) {
     },
 
     critical: {
-      test: {
+      home: {
           options: {
               base: '<%= config.dist %>/',
               css: [
@@ -275,6 +280,18 @@ module.exports = function(grunt) {
           },
           src: '<%= config.dist %>/index.html',
           dest: '<%= config.dist %>/index.html'
+      }
+    },
+
+    sprite:{
+      all: {
+        src: './dist/assets/images/speakers/*.jpg',
+        dest: './dist/assets/images/speakers-sprite.jpg',
+        destCss: './src/styles/config/_sprites.scss',
+        imgPath: '../images/speakers-sprite.jpg',
+        retinaSrcFilter: ['./dist/assets/images/speakers/*-2x.jpg'],
+        retinaDest: './dist/assets/images/speakers-sprite-2x.jpg',
+        retinaImgPath: '../images/speakers-sprite-2x.jpg',
       }
     }
 
@@ -310,11 +327,15 @@ module.exports = function(grunt) {
       'cssmin',
       'critical',
       'htmlmin',
-      'imagemin',
       'filerev',
       'usemin'
     ]);
   });
+
+  grunt.registerTask('assets', [
+    'imagemin',
+    'sprite'
+    ]);
 
   grunt.registerTask('default', [
     'build'

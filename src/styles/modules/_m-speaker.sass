@@ -11,10 +11,14 @@
     text-align: left
 
   &__img
-    max-width: 8rem
-    width: 100%
     margin: 0 auto
     border-radius: $radius
+    background-color: color(red)
+    background-blend-mode: multiply
+    .l-speaker-teaser__item:nth-child(2n+1) &
+      background-color: lighten(color(purple), 35%)
+    .l-speaker-teaser__item:nth-child(3n+1) &
+      background-color: color(yellow)
 
   &__name
     +h4
@@ -23,7 +27,6 @@
 
   &__twitter
     background-image: none
-    font-style: italic
 
   &__shortinfo
     margin-bottom: ($rithm / 4)
@@ -44,7 +47,7 @@
 
   &__main
     font-size: em($ratio__small)
-    +respond-min($bp__tablet-portrait)
+    +media(">=tablet-portrait")
       margin-left: 5rem
 
   &__bio

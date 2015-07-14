@@ -3,28 +3,25 @@ title: Frontend in Wonderland
 ---
 
 <div class="l-main__opening">
-  <p class="o-topbar">
-    {{site.topbar_home}}
-  </p>
-  {{> _banner}}
-  {{> _teaser}}
-</div>
-
-<div class="l-main__panel">
-  {{> _speakers-teaser}}
-
-  {{> _newsletterlink}}
-</div>
-
-<div class="l-main__panel">
-   {{> _tickets}}
-  <div class="m-social padding-regular">
-    <div class="m-social__inner l-block l-block--container">
-      {{> _social-shit}}
-    </div>
+  <header class="l-main__header">
+    {{> _teaser }}
+  </header>
+  <div class="l-main__illustration">
+    {{> _main-illustration }}
   </div>
 </div>
 
-<div class="l-main__panel">
-   {{> _sponsors-block}}
+<div class="l-main__panel l-main__panel--speakers">
+  {{> _speakers-teaser}}
+  {{> _newsletterlink}}
+</div>
+
+<div class="l-main__panel l-main__panel--tickets">
+  {{> _castle-illustration}}
+  {{> _tickets}}
+</div>
+
+<div class="l-main__panel l-main__panel--sponsors">
+  {{> _separator}}
+  {{> _sponsors-block}}
 </div>

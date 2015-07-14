@@ -1,72 +1,19 @@
-$base-font-size: 1rem
-$base-line-height: 1.375rem
-$rithm: 1.375rem
-
-// golden ratio - font size: 16 - line height 1.4 - scale factor 1.618
-$rithm: 1.375rem
-$fonts__base: 1rem
-$fonts__line-height: $rithm
-$fonts__max-line-length: 34rem
-
-$h1-font-size: 4.25em
-$h1-line: $rithm
-$h1-lines: 4
-$h1-line-height: $h1-line * $h1-lines
-$h1-margin-top: 2 * $h1-line
-$h1-margin-bottom: 1 * $h1-line
-
-$h2-font-size: 2.625em
-$h2-line: $rithm
-$h2-lines: 2
-$h2-line-height: $h2-line * $h2-lines
-$h2-margin-top: 2 * $h2-line
-$h2-margin-bottom: 1 * $h2-line
-
-$h3-font-size: 1.625em
-$h3-line: $rithm
-$h3-lines: 1.5
-$h3-line-height: $h3-line * $h3-lines
-$h3-line-height--big: $h3-line * $h3-lines
-$h3-margin-top: 1 * $h3-line
-$h3-margin-bottom: 1 * $h3-line
-
-$h4-font-size: 1em
-$h4-line: $rithm
-$h4-lines: 1
-$h4-line-height: $h4-line * $h4-lines
-$h4-margin-top: 1 * $h4-line
-$h4-margin-bottom: 1 * $h4-line
-
-$border-thickness: 2px
-$border-radius: 2px
-
-$object-height: $h4-line-height // height of .o-button, .o-time-slot
-$object-height__small: 40
-$object-height__large: $h3-line-height
-
-// golden ratio scale based on 1rem = 16px
-$ratio__huge: 68
-$ratio__big: 42
-$ratio__large: 26
-$ratio__medium: 18
-$ratio__base: $base-font-size
-$ratio__small: 14
-$ratio__tiny: 12
-
 // transition
 $transition__duration: .125s
 $transition__duration--long: .5s
 
-// carousel sizes
-$media__big: 300
-$media__medium: 240
-$media__small: 180
+
 
 // spaces
 $section-padding: $rithm
 
 $narrow-col: 25rem
-$medium-col: 32rem
+$medium-col: $fonts__max-line-length
 $regular-col: 44rem
 $row-width: $medium-col * 2
 $large-col: ($medium-col * 2) + 12
+
+// heights
+$object-height: $h4-line-height // height of .o-button
+$object-height__small: 40
+$object-height__large: $h3-line-height

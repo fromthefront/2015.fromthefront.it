@@ -1,6 +1,6 @@
 .l-sponsors
   +l-block
-  text-align: center 
+  text-align: center
 
   &__title
     +h3
@@ -8,10 +8,11 @@
 
   &__section
     +l-block--container
-    padding-top: $section-padding 
-    padding-bottom: $section-padding
+    padding-top: $section-padding * 2
     &:empty
       display: none !important
+    &--medium
+      padding-top: $section-padding
 
   &__slot
     display: inline-block
@@ -20,12 +21,16 @@
 
   &__slot--large
     width: 100%
-    max-width: 26rem
+    max-width: 24rem
 
   &__slot--medium
-    width: 75%
+    width: 85%
     max-width: 18rem
 
   &__slot--small
+    width: 65%
+    max-width: 15rem
+
+  &__slot--xsmall
     width: 50%
-    max-width: 12rem
+    max-width: 10rem

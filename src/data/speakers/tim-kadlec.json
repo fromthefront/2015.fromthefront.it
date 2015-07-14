@@ -4,7 +4,5 @@
   "name": "Tim Kadlec",
   "twitter": "tkadlec",
   "shortinfo": "",
-  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at ‪Akamai‬. He is the author of 'Implementing Responsive Design: Building sites for an anywhere, everywhere web' and was a contributing author for 'Smashing‬ Book #4: New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts The Path to Performance Podcast.",
-  "talk-title": "In Between",
-  "talk-abstract": "Historically, the intermediary states of our sites have been neglected. The transition between the starting and ending points has been treated as an afterthought, one we begrudgingly fix because they’re there and they stick out like a sore thumb. But the web is maturing, and our roles are shifting as it does. Through careful choreography we can make sure that these intermediate states feel intentional. That they don’t break our users state of flow, but help to maintain it. The result will be more delightful experiences for our users—from start to finish and every step along the way."
+  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at ‪Akamai‬. He is the author of 'Implementing Responsive Design: Building sites for an anywhere, everywhere web' and was a contributing author for 'Smashing‬ Book #4: New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts The Path to Performance Podcast."
 }

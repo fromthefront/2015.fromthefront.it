@@ -4,31 +4,26 @@
 @function rem($px, $base: 16)
   @return ($px / $base) + rem
 
-=font-size($font-size, $line-height: true, $rem: false)
-  @if $rem == true
-    font-size: rem($font-size)
-    .no-cssremunit &
-      font-size: $font-size + px
-  @else
-    font-size: em($font-size)
-
-  @if $line-height == true
-    line-height: ceil($font-size / $unit--baseline) * ($unit--baseline / $font-size) + em
-  @else
-    line-height: em($line-height, $font-size)
-
-=bold
-  font-weight: $fonts__bold-weight
-
 =link
   &:link,
   &:visited
     @content
 
-=on-interaction
-  &:hover,
-  &:active,
-  &:focus
+=on-interaction($self: false)
+  @if $self
+    &,
+    &:hover,
+    &:active,
+    &:focus
+      @content
+  @else
+    &:hover,
+    &:active,
+    &:focus
+      @content
+
+=when-inside($context)
+  #{$context} &
     @content
 
 =visuallyhidden
@@ -63,28 +58,6 @@
   &:-ms-input-placeholder
     @content
 
-=pseudo-center
-  &:after
-    content: ""
-    display: inline-block
-    height: 100%
-    vertical-align: middle
-    margin-left: -.25em
-
-=unset-media($switch: false)
-  .media__aside
-    float: none
-    margin-bottom: $gutter-media
-    @if $switch
-      margin-left: 0
-    @else
-      margin-right: 0
-
-=unset-grid
-  .grid__unit
-    float: none
-    width: 100%
-
 =unset-list
   margin-left: 0
   margin-bottom: 0
@@ -98,26 +71,17 @@
     display: table
     clear: both
 
-=set-border($where: top, $width: 1px, $color: $color__border, $style: solid)
-  @if $where == all
-    border: $width $style $color
-  @else
-    border-#{$where}: $width $style $color__border
-
 =link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false)
   color: $normal
   @if $visited
     &:visited
       color: $visited
-
   @if $focus
     &:focus
       color: $focus
-
   @if $hover
     &:hover
       color: $hover
-
   @if $active
     &:active
       color: $active;

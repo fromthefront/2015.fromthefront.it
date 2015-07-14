@@ -2,23 +2,23 @@
   @extend .clearfix
   padding-left: $section-padding
   padding-right: $section-padding
-  +respond-min($bp__phone-landscape)
+  +media(">=phone-landscape")
     padding-left: $section-padding * 1.25
     padding-right: $section-padding * 1.25
-  +respond-min($bp__widescreen)
+  +media(">=widescreen")
     padding-left: $section-padding * 1.5
     padding-right: $section-padding * 1.5
 
-.l-block 
+.l-block
   +l-block
-  
+
 .l-block--wider
   padding-left: $section-padding * 1.25
   padding-right: $section-padding * 1.25
-  +respond-min($bp__phone-landscape)
+  +media(">=phone-landscape")
     padding-left: $section-padding * 2.25
     padding-right: $section-padding * 2.25
-  +respond-min($bp__widescreen)
+  +media(">=widescreen")
     padding-left: $section-padding * 2.5
     padding-right: $section-padding * 2.5
 
@@ -26,7 +26,7 @@
   margin: 0 auto
   width: 100%
   max-width: $row-width
-  +respond-min($bp__widescreen)
+  +media(">=widescreen")
     max-width: 72rem
 .l-block--container
   @extend .clearfix

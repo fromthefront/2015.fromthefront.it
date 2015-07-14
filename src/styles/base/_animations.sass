@@ -1,35 +1,35 @@
-%a-letter
-  animation-name: letter-enter
-  animation-duration: 400ms
-  animation-timing-function: ease-in
-  animation-delay: 0s
-  animation-play-state: running
-  animation-fill-mode: forwards
-
-@keyframes letter-enter
+@keyframes rotate
   from
-    opacity: 0
-    transform: translateX(-10%)
+    transform: rotate(0deg)
   to
-    opacity: 1
-    transform: translateX(0%)
+    transform: rotate(360deg)
 
-%a-backgrounds
-  animation-name: change-bgcolor
-  animation-duration: 60s
-  animation-timing-function: ease-in-out
-  animation-delay: 0s
+@keyframes controRotate
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(-360deg)
+
+=rotate
+  animation-name: rotate
+  animation-duration: 15s
   animation-iteration-count: infinite
-  animation-direction: normal
-  animation-play-state: running
   animation-fill-mode: forwards
+  transform-origin: 50% 50%
 
-@keyframes change-bgcolor
-  0%
-    background-color: $color__blue
-  25%
-    background-color: $color__red
-  50%
-    background-color: $color__marina
-  75%
-    background-color: $color__yellow
+=contro-rotate
+  animation-name: controRotate
+  animation-duration: 15s
+  animation-iteration-count: infinite
+  animation-fill-mode: forwards
+  transform-origin: 50% 50%
+
+// #red-flowers,
+// #red-flowers_1_
+//   g
+//     +rotate
+
+// #purple-flowers,
+// #purple_flowers
+//   path
+//     +contro-rotate

@@ -1,0 +1,11 @@
+$indexes: (
+  decorations: -1,
+  under-text: 5,
+  text: 10,
+  header: 20
+);
+
+
+@function z-index($z-index) {
+  @return map-get($indexes, $z-index);
+}

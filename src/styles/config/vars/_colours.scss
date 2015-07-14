@@ -1,0 +1,34 @@
+$colors: (
+  white: #efdb9f,
+  yellow: #efa950,
+  red: #ff644b,
+  purple: #46466e,
+  ink: #281e32,
+  brown: #b39f78
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+$color__primary: color(red);
+$color__secondary: color(purple);
+
+$color__background: color(white);
+$color__text: color(ink);
+
+$color__link: $color__primary;
+$color__link--hover: darken($color__primary, 15%);
+$color__link--active: darken($color__primary, 15%);
+$color__link--visited: $color__primary;
+$color__link--focus: darken($color__primary, 15%);
+
+
+// illustration colors
+.st0 { fill: color(ink); } 
+.st1 { fill: color(purple); } 
+.st2 { fill: color(red); } 
+.st3 { fill: color(yellow); } 
+.st4 { fill: color(brown); } 
+.st5 { fill: color(white); } 
+.st6 { fill: white } 

@@ -2,7 +2,13 @@ body
   font: normal #{$fonts__base}/#{$fonts__line-height} $fonts
   color: $color__text
   -webkit-font-smoothing: antialiased
-  +respond-min($bp__widescreen)
+  -moz-osx-font-smoothing: grayscale
+  text-rendering: optimizeLegibility
+  -webkit-font-variant-ligatures: common-ligatures
+  font-variant-ligatures: common-ligatures
+  font-feature-settings: "liga", "dlig", "kern"
+  font-kerning: normal
+  +media(">=widescreen")
     font-size: 1.125em
 
 ol,
@@ -18,33 +24,52 @@ blockquote, ol, dl, fieldset
 abbr[title]
   border-bottom: none
 
-.script
+=sans
   font-family: $fonts--comp
-=h1
-  font-size: $h1-font-size
-  font-weight: $fonts__black-weight
-  line-height: $h1-line-height
-  margin-bottom: $h1-margin-bottom
-  margin-top: $h1-margin-top
-h1,
-.as-h1
-  +h1
 
-=h2
+=h1
   font-size: $h2-font-size
   font-weight: $fonts__bold-weight
   line-height: $h2-line-height
   margin-bottom: $h2-margin-bottom
   margin-top: $h2-margin-top
+  @media all and (min-width: 700px)
+    font-size: $h1-font-size
+    font-weight: $fonts__bold-weight
+    line-height: $h1-line-height
+    margin-bottom: $h1-margin-bottom
+    margin-top: $h1-margin-top
+
+h1,
+.as-h1
+  +h1
+
+=h2
+  font-size: $h3-font-size
+  line-height: $h3-line-height
+  margin-bottom: $h3-margin-bottom
+  margin-top: $h3-margin-top
+  @media all and (min-width: 700px)
+    font-size: $h2-font-size
+    font-weight: $fonts__bold-weight
+    line-height: $h2-line-height
+    margin-bottom: $h2-margin-bottom
+    margin-top: $h2-margin-top
 h2,
 .as-h2
   +h2
 
 =h3
-  font-size: $h3-font-size
-  line-height: $h3-line-height
-  margin-bottom: $h3-margin-bottom
-  margin-top: $h3-margin-top
+  font-size: $h4-font-size
+  font-weight: $fonts__bold-weight
+  line-height: $h4-line-height
+  margin-bottom: $h4-margin-bottom
+  margin-top: $h4-margin-top
+  @media all and (min-width: 700px)
+    font-size: $h3-font-size
+    line-height: $h3-line-height--big
+    margin-bottom: $h3-margin-bottom
+    margin-top: $h3-margin-top
 h3,
 .as-h3
   +h3
@@ -55,60 +80,18 @@ h3,
   line-height: $h4-line-height
   margin-bottom: $h4-margin-bottom
   margin-top: $h4-margin-top
+
 h4,
 .as-h4
   +h4
 
-.smallcaps
+=smallcaps
   font-size: em(14)
   font-weight: $fonts__bold-weight
   text-transform: uppercase
   letter-spacing: .125em
   padding-left: .125em
 
-.smallcaps--small
-  +respond-max($bp__iphone-4s)
-    font-size: em($ratio__small)
-    font-weight: normal
-
-.title-text
-  font-weight: normal
-
-.subtitle-text
-  font-weight: normal
-
-.big-text
-  +respond-min-max($bp__phone-landscape, $bp__widescreen)
-    font-size: em(20)
-  +respond-min($bp__widescreen)
-    font-size: em($ratio__medium)
-
-.large-copy
-  font-size: em($ratio__medium)
-  line-height: 1.6
-  +respond-min($bp__tablet-portrait)
-    line-height: 1.8
-
-.uppercase
+=uppercase
   text-transform: uppercase
   letter-spacing: .0625em
-
-.weight--black
-  font-weight: $fonts__black-weight
-
-.weight--normal
-  font-weight: normal
-
-.underline
-  border-bottom: 1px solid
-
-.color--light
-  color: $color__grey5
-
-.color--dark
-  color: $color__grey3
-
-.color--red
-  color: $color__primary
-  .l-section--color &
-    color: $color__grey1
