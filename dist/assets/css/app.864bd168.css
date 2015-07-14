@@ -1637,7 +1637,8 @@ h4,
             -ms-flex-direction: row-reverse;
                 flex-direction: row-reverse; } }
   .m-speaker__header {
-    margin-bottom: 1.375rem; }
+    margin-bottom: 1.375rem;
+    min-width: 8.5rem; }
     .m-speaker__header:after {
       content: "";
       display: table;
