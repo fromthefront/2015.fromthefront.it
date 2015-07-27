@@ -41,8 +41,10 @@
     +media(">=tablet-portrait")
       display: flex
       align-items: top
-      .l-speakers__slot:nth-child(odd) &
+      margin: 0 0 0 $rithm
+      .l-speakers__slot:nth-child(even) &
         flex-direction: row-reverse
+        margin: 0 $rithm 0 0
 
   &__header
     +clearfix
