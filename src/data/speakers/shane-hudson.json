@@ -3,7 +3,7 @@
   "twitter": "shanehudson",
   "shortinfo": "",
   "order": 7,
-  "bio": "Despite being a constant presence on Twitter, he is a freelance developer interested in the weird and wonderful of the web. He has previously worked on a web-based geographic data portal at [Plymouth Marine Laboratory](http://www.pml.ac.uk/) and written a book called [JavaScript ‪Creativity‬](http://www.apress.com/9781430259442).",
+  "bio": "Despite being a constant presence on Twitter, he is a freelance developer interested in the weird and wonderful of the web.<br/><br/>He has previously worked on a web-based geographic data portal at [Plymouth Marine Laboratory](http://www.pml.ac.uk/) and written a book called [JavaScript ‪Creativity‬](http://www.apress.com/9781430259442).",
   "talk-abstract":"The web lets us express creativity and enhance communication in incredible ways, so why is it that we painstakingly craft our design and code but pay almost no attention at all to map? The purpose of this talk is to explore the history and importance of cartography, as well as practical ways to make make your own maps. There really is no need to use the default Google map for every single map on the web.",
   "talk-title": "Putting Design On The Map"
 }

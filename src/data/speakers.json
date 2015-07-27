@@ -51,7 +51,7 @@
   "twitter": "petrosalema",
   "shortinfo": "",
   "order": 14,
-  "bio": "Pedro currently leads the development of [Aloha Editor](http://www.alohaeditor.org), to make the web a platform for text based editing. He discovered the possibilities for software to impact the human condition with the World Wide Web in his early teens. He noticed that most of the limitations on what we can build with software are only as insurmountable as the limits to our imagination, and thus began his study of code and design—the craft, and the people behind it."
+  "bio": "Pedro currently leads the development of [Aloha Editor](http://www.alohaeditor.org), to make the web a platform for text based editing.<br/><br/>He discovered the possibilities for software to impact the human condition with the World Wide Web in his early teens. He noticed that most of the limitations on what we can build with software are only as insurmountable as the limits to our imagination, and thus began his study of code and design—the craft, and the people behind it."
 }
 ,{
   "img": "razan-sadeq.jpg",
@@ -67,7 +67,7 @@
   "twitter": "sjenkinson",
   "shortinfo": "",
   "order": 8,
-  "bio": "Sally is a technical consultant and solutions architect who, through her company Records Sound the Same, helps both big and small businesses with their discovery, planning, and strategic digital decisions.<br/><br/>She focuses on using technology to enhance experiences.<br/><br/>She is a coder, author, gamer, and tea drinker.",
+  "bio": "Sally is a technical consultant and solutions architect who, through her company Records Sound the Same, helps both big and small businesses with their discovery, planning, and strategic digital decisions. She focuses on using technology to enhance experiences.<br/><br/>She is a coder, author, gamer, and tea drinker.",
   "talk-abstract":"In a world where many of our digital spaces are becoming more closed than ever, open data is a concept that is rapidly on the rise.<br/><br/>In this talk we’ll explore what open data is (and what it isn’t), why we should care about it, and look at how you can introduce it into your projects with regards to practical publication and consumption. We’ll specifically consider open data within the context of front-end development, including discussing some useful tools and reference points.<br/><br/>Open data isn’t just dry and technical - it gives us great scope to be creative, and throughout this talk we’ll go through some of the amazing things that it has been used for globally, in the hope that it will inspire you to create something yourself.",
   "talk-title": "Open your data: open your mind"
 }
@@ -76,7 +76,7 @@
   "twitter": "shanehudson",
   "shortinfo": "",
   "order": 7,
-  "bio": "Despite being a constant presence on Twitter, he is a freelance developer interested in the weird and wonderful of the web. He has previously worked on a web-based geographic data portal at [Plymouth Marine Laboratory](http://www.pml.ac.uk/) and written a book called [JavaScript ‪Creativity‬](http://www.apress.com/9781430259442).",
+  "bio": "Despite being a constant presence on Twitter, he is a freelance developer interested in the weird and wonderful of the web.<br/><br/>He has previously worked on a web-based geographic data portal at [Plymouth Marine Laboratory](http://www.pml.ac.uk/) and written a book called [JavaScript ‪Creativity‬](http://www.apress.com/9781430259442).",
   "talk-abstract":"The web lets us express creativity and enhance communication in incredible ways, so why is it that we painstakingly craft our design and code but pay almost no attention at all to map? The purpose of this talk is to explore the history and importance of cartography, as well as practical ways to make make your own maps. There really is no need to use the default Google map for every single map on the web.",
   "talk-title": "Putting Design On The Map"
 }
@@ -93,7 +93,7 @@
   "name": "Tim Kadlec",
   "twitter": "tkadlec",
   "shortinfo": "",
-  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at [‪Akamai‬](‪http://akamai‬.com). He is the author of '[Implementing Responsive Design](http://www.implementingresponsivedesign.com/): Building sites for an anywhere, everywhere web' and was a contributing author for 'Smashing‬ Book #4: New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts [The Path to Performance Podcast](http://pathtoperf.com/)."
+  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at [‪Akamai‬](‪http://akamai‬.com).<br/><br/>He is the author of '[Implementing Responsive Design](http://www.implementingresponsivedesign.com/): Building sites for an anywhere, everywhere web' and was a contributing author for 'Smashing‬ Book #4: New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts [The Path to Performance Podcast](http://pathtoperf.com/)."
 }
 ,{
   "name": "Una Kravets",

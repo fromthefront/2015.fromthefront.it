@@ -1554,9 +1554,9 @@ h4, .as-h4 {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center; }
+      -webkit-align-items: top;
+          -ms-flex-align: top;
+              align-items: top; }
       .l-speakers__slot:nth-child(odd) .m-speaker__card {
         -webkit-flex-direction: row-reverse;
             -ms-flex-direction: row-reverse;
