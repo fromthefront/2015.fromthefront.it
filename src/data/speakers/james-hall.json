@@ -3,5 +3,7 @@
   "twitter": "mrrio",
   "shortinfo": "",
   "order": 5,
-  "bio":"James Hall has been working in the digital sector for 12 years. He is the author of the popular ‪‎jsPDF‬ library, and is a founder/Director of ‪Parallax‬, a digital agency in the UK. He has worked as a software developer on a wide variety of projects, from LED Billboards, car unlocking apps, to large web applications and tools."
+  "bio":"James Hall has been working in the digital sector for 12 years. He is the author of the popular [‪‎jsPDF‬](https://parall.ax/products/jspdf) library, and is a founder/Director of [‪Parallax‬](http://parall.ax/), a digital agency in the UK. <br/><br/>He has worked as a software developer on a wide variety of projects, from LED Billboards, car unlocking apps, to large web applications and tools.",
+  "talk-abstract":"Security is boring, but it doesn't have to be.<br/><br/>James will be talking about the state of web security today, showing off common flaws, and explaining how we can all improve security for our customers.<br/><br/>He'll take you through the basics of cryptography, and explain some more advanced concepts in terms a novice will be able to understand. ",
+  "talk-title": "Security is Everyone's Responsibility"
 }

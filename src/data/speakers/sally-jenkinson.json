@@ -4,5 +4,7 @@
   "twitter": "sjenkinson",
   "shortinfo": "",
   "order": 8,
-  "bio": "Sally is a technical consultant and solutions architect who, through her company Records Sound the Same, helps both big and small businesses with their discovery, planning, and strategic digital decisions. She focuses on using technology to enhance experiences. She is a coder, author, gamer, and tea drinker."
+  "bio": "Sally is a technical consultant and solutions architect who, through her company Records Sound the Same, helps both big and small businesses with their discovery, planning, and strategic digital decisions.<br/><br/>She focuses on using technology to enhance experiences.<br/><br/>She is a coder, author, gamer, and tea drinker.",
+  "talk-abstract":"In a world where many of our digital spaces are becoming more closed than ever, open data is a concept that is rapidly on the rise.<br/><br/>In this talk we’ll explore what open data is (and what it isn’t), why we should care about it, and look at how you can introduce it into your projects with regards to practical publication and consumption. We’ll specifically consider open data within the context of front-end development, including discussing some useful tools and reference points.<br/><br/>Open data isn’t just dry and technical - it gives us great scope to be creative, and throughout this talk we’ll go through some of the amazing things that it has been used for globally, in the hope that it will inspire you to create something yourself.",
+  "talk-title": "Open your data: open your mind"
 }

@@ -3,14 +3,14 @@
   "name": "Amelia Andersdotter",
   "twitter": "teirdes",
   "shortinfo": "",
-  "bio": "From 2011 to 2014, Amelia was a member of the European Parliament. Since then, she is on the advisory group for the Internet Governance Forum at the United Nations. She is also founder and director at dataskydd.net, and she has been involved in copywrongs, a pan-European initiative to help citizens engage in the European Union copyright reform of 2015."
+  "bio": "From 2011 to 2014, Amelia was a member of the European Parliament. Since then, she is on the advisory group for the [Internet Governance Forum](http://www.intgovforum.org) at the United Nations.<br/><br/>She is also founder and director at [dataskydd.net](https://dataskydd.net/), and she has been involved in [copywrongs](http://copywrongs.eu/), a pan-European initiative to help citizens engage in the European Union copyright reform of 2015."
 }
 ,{
   "name": "Andrew Pendrick",
   "twitter": "andrewpendrick",
   "shortinfo": "",
   "order": 11,
-  "bio": "Andrew started designing and building sites on an agency treadmill then promoting user centered design to a reluctant banking behemoth before leaving to join a small design and research team building niche stuff for large audiences. After a couple of years at co-helming Folksy, the modern British craft marketplace, he now spends his days as a product owner trying to make the world’s leading accommodation platform better over at Booking.com."
+  "bio": "Andrew started designing and building sites on an agency treadmill then promoting user centered design to a reluctant banking behemoth before leaving to join a small design and research team building niche stuff for large audiences<br/><br/>After a couple of years at co-helming [Folksy](https://folksy.com/), the modern British craft marketplace, he now spends his days as a product owner trying to make the world’s leading accommodation platform better over at [Booking.com](http://booking.com)."
 }
 ,{
   "img": "anna-debenham.jpg",
@@ -18,28 +18,32 @@
   "twitter": "anna_debenham",
   "shortinfo": "",
   "order": 3,
-  "bio": "Anna Debenham is a freelance front-end developer based in London. She was awarded Young Developer of the Year by Netmag in 2013. She's written a book on Front End Style Guides, and co-hosts a pocast with Brad Frost on Style Guides. When she's not playing on them, she's researching the browsers on game consoles."
+  "bio": "Anna Debenham is a freelance front-end developer based in London.<br/><br/>She was awarded Young Developer of the Year by Netmag in 2013. She's written a book on [Front End Style Guides](http://maban.co.uk/projects/front-end-style-guides/), and co-hosts [a pocast with Brad Frost on Style Guides](http://styleguides.io/podcast/). When she's not playing on them, she's researching the browsers on game consoles.",
+  "talk-abstract":"After interviewing a dozen people with Brad Frost for their podcast on Style Guides for the web, Anna has collated all their findings for this talk on the different kinds that are out there, how they're built, what works (and what doesn't), and what makes them such a useful tool.<br/><br/>She'll give you a tour of some style guides built by companies with a range of different needs and requirements, and you'll learn how to build your own using a range of possible technologies.",
+  "talk-title": "Front-end Style Guides"
 }
 ,{
   "name": "Davide Casali",
   "twitter": "folletto",
   "shortinfo": "",
   "order": 2,
-  "bio": "He is user experience director and startup advisor with a hybrid background in design, psychology and technology. His objective is to change for better the quality of life of the people through the products he designs and lead. He currently works in ‪Automattic‬, maker of WordPress.com. He believes that “Simplicity is the ultimate sophistication”."
+  "bio": "He is user experience director and startup advisor with a hybrid background in design, psychology and technology.<br/><br/>His objective is to change for better the quality of life of the people through the products he designs and lead. He currently works in [‪Automattic‬](http://automattic.com), maker of [WordPress.com](http://www.wordpress.org).<br/><br/>He believes that “Simplicity is the ultimate sophistication”."
 }
 ,{
   "name": "Harry Roberts",
   "twitter": "csswizardry",
   "shortinfo": "",
   "order": 12,
-  "bio": "With a client list including *Google*, the *United Nations*, and *Unilever*, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs. He writes on the subjects of CSS architecture, performance, and scalability at [csswizardry.com](http://csswizardry.com); develops and maintains [inuitcss](https://github.com/inuitcss); authored [CSS Guidelines](http://cssguidelin.es); and Tweets at [@csswizardry](http://twitter.com/csswizardry)."
+  "bio": "With a client list including *Google*, the *United Nations*, and *Unilever*, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs.<br/><br/>He writes on the subjects of CSS architecture, performance, and scalability at [csswizardry.com](http://csswizardry.com); develops and maintains [inuitcss](https://github.com/inuitcss); authored [CSS Guidelines](http://cssguidelin.es); and Tweets at [@csswizardry](http://twitter.com/csswizardry)."
 }
 ,{
   "name": "James Hall",
   "twitter": "mrrio",
   "shortinfo": "",
   "order": 5,
-  "bio":"James Hall has been working in the digital sector for 12 years. He is the author of the popular ‪‎jsPDF‬ library, and is a founder/Director of ‪Parallax‬, a digital agency in the UK. He has worked as a software developer on a wide variety of projects, from LED Billboards, car unlocking apps, to large web applications and tools."
+  "bio":"James Hall has been working in the digital sector for 12 years. He is the author of the popular [‪‎jsPDF‬](https://parall.ax/products/jspdf) library, and is a founder/Director of [‪Parallax‬](http://parall.ax/), a digital agency in the UK. <br/><br/>He has worked as a software developer on a wide variety of projects, from LED Billboards, car unlocking apps, to large web applications and tools.",
+  "talk-abstract":"Security is boring, but it doesn't have to be.<br/><br/>James will be talking about the state of web security today, showing off common flaws, and explaining how we can all improve security for our customers.<br/><br/>He'll take you through the basics of cryptography, and explain some more advanced concepts in terms a novice will be able to understand. ",
+  "talk-title": "Security is Everyone's Responsibility"
 }
 ,{
   "img": "petro-salema.jpg",
@@ -47,7 +51,7 @@
   "twitter": "petrosalema",
   "shortinfo": "",
   "order": 14,
-  "bio": "Pedro currently leads the development of Aloha Editor, to make the web a platform for text based editing. He discovered the possibilities for software to impact the human condition with the World Wide Web in his early teens. He noticed that most of the limitations on what we can build with software are only as insurmountable as the limits to our imagination, and thus began his study of code and design—the craft, and the people behind it."
+  "bio": "Pedro currently leads the development of [Aloha Editor](http://www.alohaeditor.org), to make the web a platform for text based editing. He discovered the possibilities for software to impact the human condition with the World Wide Web in his early teens. He noticed that most of the limitations on what we can build with software are only as insurmountable as the limits to our imagination, and thus began his study of code and design—the craft, and the people behind it."
 }
 ,{
   "img": "razan-sadeq.jpg",
@@ -55,7 +59,7 @@
   "twitter": "razsadeq",
   "shortinfo": "",
   "order": 13,
-  "bio": "Razan is a user researcher at Spotify. Razan’s goal is to get paid to have fun, and that's what she does today. She's incredibly passionate and curious about understanding people and immersing herself in their wold. Why do they listen to music? How, when, what, who, why, why, why?! As she describes is, it's like playing detective. Her previous gigs include working at art+com in Berlin creating interactive installations, and hustling in the online fashion world where she specialised in user research."
+  "bio": "Razan is a user researcher at [Spotify](http://www.spotify.com). Razan’s goal is to get paid to have fun, and that's what she does today.<br/><br/>She's incredibly passionate and curious about understanding people and immersing herself in their wold. Why do they listen to music? How, when, what, who, why, why, why?! As she describes is, it's like playing detective.<br/><br/>Her previous gigs include working at [art+com](http://artcom.de/) in Berlin creating interactive installations, and hustling in the online fashion world where she specialised in user research."
 }
 ,{
   "img": "sally-jenkinson.jpg",
@@ -63,21 +67,25 @@
   "twitter": "sjenkinson",
   "shortinfo": "",
   "order": 8,
-  "bio": "Sally is a technical consultant and solutions architect who, through her company Records Sound the Same, helps both big and small businesses with their discovery, planning, and strategic digital decisions. She focuses on using technology to enhance experiences. She is a coder, author, gamer, and tea drinker."
+  "bio": "Sally is a technical consultant and solutions architect who, through her company Records Sound the Same, helps both big and small businesses with their discovery, planning, and strategic digital decisions.<br/><br/>She focuses on using technology to enhance experiences.<br/><br/>She is a coder, author, gamer, and tea drinker.",
+  "talk-abstract":"In a world where many of our digital spaces are becoming more closed than ever, open data is a concept that is rapidly on the rise.<br/><br/>In this talk we’ll explore what open data is (and what it isn’t), why we should care about it, and look at how you can introduce it into your projects with regards to practical publication and consumption. We’ll specifically consider open data within the context of front-end development, including discussing some useful tools and reference points.<br/><br/>Open data isn’t just dry and technical - it gives us great scope to be creative, and throughout this talk we’ll go through some of the amazing things that it has been used for globally, in the hope that it will inspire you to create something yourself.",
+  "talk-title": "Open your data: open your mind"
 }
 ,{
   "name": "Shane Hudson",
   "twitter": "shanehudson",
   "shortinfo": "",
   "order": 7,
-  "bio": "Despite being a constant presence on Twitter, he is a freelance developer interested in the weird and wonderful of the web. He has previously worked on a web-based geographic data portal at Plymouth Marine Laboratory and written a book called JavaScript ‪Creativity‬."
+  "bio": "Despite being a constant presence on Twitter, he is a freelance developer interested in the weird and wonderful of the web. He has previously worked on a web-based geographic data portal at [Plymouth Marine Laboratory](http://www.pml.ac.uk/) and written a book called [JavaScript ‪Creativity‬](http://www.apress.com/9781430259442).",
+  "talk-abstract":"The web lets us express creativity and enhance communication in incredible ways, so why is it that we painstakingly craft our design and code but pay almost no attention at all to map? The purpose of this talk is to explore the history and importance of cartography, as well as practical ways to make make your own maps. There really is no need to use the default Google map for every single map on the web.",
+  "talk-title": "Putting Design On The Map"
 }
 ,{
   "name": "Sharon Steed",
   "twitter": "sharonsteed",
   "shortinfo": "",
   "order": 15,
-  "bio": "Sharon is a communications consultant with over a decade of experience creating and managing content. She helps companies communicate better with their audience as well as their fellow team members. She has spoken to universities about stuttering, at Ignite Chicago about patience, and several tech conferences about improving communication skills through embracing vulnerabilities."
+  "bio": "Sharon is a communications consultant with over a decade of experience creating and managing content. She helps companies communicate better with their audience as well as their fellow team members.<br/><br/>She has spoken to universities about stuttering, at Ignite Chicago about patience, and several tech conferences about improving communication skills through embracing vulnerabilities."
 }
 ,{
   "order": 9,
@@ -85,27 +93,29 @@
   "name": "Tim Kadlec",
   "twitter": "tkadlec",
   "shortinfo": "",
-  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at ‪Akamai‬. He is the author of 'Implementing Responsive Design: Building sites for an anywhere, everywhere web' and was a contributing author for 'Smashing‬ Book #4: New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts The Path to Performance Podcast."
+  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at [‪Akamai‬](‪http://akamai‬.com). He is the author of '[Implementing Responsive Design](http://www.implementingresponsivedesign.com/): Building sites for an anywhere, everywhere web' and was a contributing author for 'Smashing‬ Book #4: New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts [The Path to Performance Podcast](http://pathtoperf.com/)."
 }
 ,{
   "name": "Una Kravets",
   "twitter": "una",
   "shortinfo": "",
   "order": 10,
-  "bio": "Una is a front-end developer, architecting design systems and building software prototypes on the Cloud Platform team at IBM Design, Austin. She is a core member of the Open Design Foundation and founder of both the Sassy DCand ATX Sass Meetups. She's a performance nerd, but also loves illustration, hand-lettering, and audiobooks."
+  "bio": "Una is a front-end developer, architecting design systems and building software prototypes on the Cloud Platform team at [IBM Design](https://www.ibm.com/design/), Austin. She is a core member of the [Open Design Foundation](http://opendesign.foundation/) and founder of both the Sassy DCand ATX Sass Meetups.<br/><br/>She's a performance nerd, but also loves illustration, hand-lettering, and audiobooks."
 }
 ,{
   "name": "Zach Holman",
   "twitter": "holman",
   "shortinfo": "",
   "order": 6,
-  "bio": "Zach Holman is a developer living in San Francisco. He joined ‪GitHub‬ in 2010 as one of their first engineering hires and helped build and grow their product and culture over five years. He does a lot of public speaking about creating happy, productive software teams, and writes about the art of public speaking itself at speaking.io."
+  "bio": "Zach Holman is a developer living in San Francisco. He joined [‪GitHub‬](http://github.com) in 2010 as one of their first engineering hires and helped build and grow their product and culture over five years.<br/><br/>He does a lot of public speaking about creating happy, productive software teams, and writes about the art of public speaking itself at [speaking.io](http://speaking.io)."
 }
 ,{
   "name": "Zoe Gillenwater",
   "twitter": "zomigi",
   "shortinfo": "",
   "order": 4,
-  "bio": "Zoe is a Web designer and developer specialising in Responsive Web design, user experience, and Web accessibility techniques to maximise usability, device compatibility, and awesomeness. She is the author of the “New Riders books Stunning CSS3: A Project-based Guide to the Latest in CSS” and “Flexible Web Design: Creating Liquid and Elastic Layouts with CSS” and the video training “Web Accessibility Principles” for lynda.com. She currently works as a UX designer for Booking.com."
+  "bio": "Zoe is a Web designer and developer specialising in Responsive Web design, user experience, and Web accessibility techniques to maximise usability, device compatibility, and awesomeness.<br/><br/>She is the author of the “[New Riders books Stunning CSS3](http://www.stunningcss3.com/): A Project-based Guide to the Latest in CSS” and “[Flexible Web Design](http://www.flexiblewebbook.com/): Creating Liquid and Elastic Layouts with CSS” and the video training “Web Accessibility Principles” for [lynda.com](http://www.lynda.com/Dreamweaver-tutorials/web-accessibility-principles/448-2.html). She currently works as a UX designer for [Booking.com](http://booking.com).",
+  "talk-abstract":"Flexbox and responsive web design go great together, like peanut butter and jelly. Flexbox gives you more control over the things you care about in a responsive layout—like order, alignment, and proportional sizes of your boxes—and lets the browser figure out the rest—the math-y stuff that computers are good at, like the exact dimensions that are needed on the boxes to perfectly fill the available space. You can create much more complex and reliable layouts with flexbox than you can with floats, table display, or inline-block, all with far less CSS.<br/><br/>In this talk, you’ll learn which features of flexbox are particularly suited to responsive layouts and how you can harness them today by applying flexbox as progressive enhancement. We’ll look at examples of responsive page components and patterns that you can enhance further by layering flexbox on top of other layout methods, ensuring all users get a good experience. ",
+  "talk-title": "Enhancing Responsiveness with Flexbox"
 }
 ]}

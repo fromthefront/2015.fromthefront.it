@@ -4,5 +4,7 @@
   "twitter": "anna_debenham",
   "shortinfo": "",
   "order": 3,
-  "bio": "Anna Debenham is a freelance front-end developer based in London. She was awarded Young Developer of the Year by Netmag in 2013. She's written a book on Front End Style Guides, and co-hosts a pocast with Brad Frost on Style Guides. When she's not playing on them, she's researching the browsers on game consoles."
+  "bio": "Anna Debenham is a freelance front-end developer based in London.<br/><br/>She was awarded Young Developer of the Year by Netmag in 2013. She's written a book on [Front End Style Guides](http://maban.co.uk/projects/front-end-style-guides/), and co-hosts [a pocast with Brad Frost on Style Guides](http://styleguides.io/podcast/). When she's not playing on them, she's researching the browsers on game consoles.",
+  "talk-abstract":"After interviewing a dozen people with Brad Frost for their podcast on Style Guides for the web, Anna has collated all their findings for this talk on the different kinds that are out there, how they're built, what works (and what doesn't), and what makes them such a useful tool.<br/><br/>She'll give you a tour of some style guides built by companies with a range of different needs and requirements, and you'll learn how to build your own using a range of possible technologies.",
+  "talk-title": "Front-end Style Guides"
 }
