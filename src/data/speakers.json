@@ -34,7 +34,7 @@
   "twitter": "csswizardry",
   "shortinfo": "",
   "order": 12,
-  "bio": "With a client list including *Google*, the *United Nations*, and *Unilever*, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs.<br/><br/>He writes on the subjects of CSS architecture, performance, and scalability at [csswizardry.com](http://csswizardry.com); develops and maintains [inuitcss](https://github.com/inuitcss); authored [CSS Guidelines](http://cssguidelin.es); and Tweets at [@csswizardry](http://twitter.com/csswizardry)."
+  "bio": "With a client list including *Google*, the *United Nations*, and *Unilever*, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs.<br/><br/>He writes on the subjects of CSS architecture, performance, and scalability at [csswizardry.com](http://csswizardry.com); develops and maintains [inuitcss](https://github.com/inuitcss) and authored [CSS Guidelines](http://cssguidelin.es)."
 }
 ,{
   "name": "James Hall",
@@ -51,7 +51,7 @@
   "twitter": "petrosalema",
   "shortinfo": "",
   "order": 14,
-  "bio": "Pedro currently leads the development of [Aloha Editor](http://www.alohaeditor.org), to make the web a platform for text based editing.<br/><br/>He discovered the possibilities for software to impact the human condition with the World Wide Web in his early teens. He noticed that most of the limitations on what we can build with software are only as insurmountable as the limits to our imagination, and thus began his study of code and design—the craft, and the people behind it."
+  "bio": "Petro currently leads the development of [Aloha Editor](http://www.alohaeditor.org), to make the web a platform for text based editing.<br/><br/>He discovered the possibilities for software to impact the human condition with the World Wide Web in his early teens. He noticed that most of the limitations on what we can build with software are only as insurmountable as the limits to our imagination, and thus began his study of code and design—the craft, and the people behind it."
 }
 ,{
   "img": "razan-sadeq.jpg",
@@ -93,7 +93,7 @@
   "name": "Tim Kadlec",
   "twitter": "tkadlec",
   "shortinfo": "",
-  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at [‪Akamai‬](‪http://akamai‬.com).<br/><br/>He is the author of '[Implementing Responsive Design](http://www.implementingresponsivedesign.com/): Building sites for an anywhere, everywhere web' and was a contributing author for 'Smashing‬ Book #4: New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts [The Path to Performance Podcast](http://pathtoperf.com/)."
+  "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at [‪Akamai‬](‪http://akamai‬.com).<br/><br/>He is the author of '[Implementing Responsive Design](http://www.implementingresponsivedesign.com/): Building sites for an anywhere, everywhere web' and was a contributing author for '[Smashing‬ Book #4](https://shop.smashingmagazine.com/products/smashing-book-4-ebooks): New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts [The Path to Performance Podcast](http://pathtoperf.com/)."
 }
 ,{
   "name": "Una Kravets",
