@@ -1,0 +1,30 @@
+.m-nav
+  +position(absolute, top 0 left 0 right 0)
+  z-index: z-index(header)
+  margin: ($rithm / 2) 0 0
+
+  &__list
+    +unset-list
+    text-align: center
+    white-space: nowrap
+    width: 100%
+    overflow-x: auto
+    padding-bottom: $rithm / 2
+    +scrollbar(2px, color(brown), color(red))
+
+  &__item
+    display: inline-block
+    margin: 0 ($rithm / 3)
+
+  &__link
+    background-image: none
+    text-transform: uppercase
+    letter-spacing: 1px
+    color: color(purple)
+    +on-interaction
+      color: darken(color(purple), 10)
+    font:
+      weight: 700
+      size: em($ratio__base)
+    +media(">tablet-portrait")
+      font-size: em($ratio__base)
