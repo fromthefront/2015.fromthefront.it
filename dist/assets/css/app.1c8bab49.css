@@ -1008,7 +1008,7 @@ h4,
     margin: 0 auto;
     width: 100%; }
   .l-page__main--large {
-    max-width: 76rem; }
+    max-width: 74rem; }
   .l-page__header {
     position: absolute;
     top: 0;
@@ -1098,7 +1098,7 @@ h4,
         margin-top: 4.125rem; } }
     @media (min-width: 1000px) {
       .l-speaker-teaser__list {
-        max-width: 76rem; } }
+        max-width: 74rem; } }
   .l-speaker-teaser__smallprint {
     font-size: 1.125em;
     font-weight: 700;
