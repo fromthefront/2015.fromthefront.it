@@ -1,5 +1,6 @@
 ---
 title: Venue
+theme: t-blue
 ---
 <article class="l-page t-blue">
   <div id="venue" class="l-page__section is-on-top">
@@ -20,7 +21,15 @@ title: Venue
     </div>
   </div>
   <div class="l-page__section extra-margin">
-   <img src="{{assets}}/images/duse.jpg" alt="A view from Teatro Duse" class="l-page__image">
+   <img
+    src="{{assets}}/images/duse-s.jpg"
+    srcset="
+      {{assets}}/images/duse-m.jpg 1024w,
+      {{assets}}/images/duse-l.jpg 1200w,
+      {{assets}}/images/duse-xl.jpg 1420w
+    "
+    alt="A view from Teatro Duse"
+    class="l-page__image">
    {{> _image-mask}}
   </div>
   <div id="party" class="l-page__section">
