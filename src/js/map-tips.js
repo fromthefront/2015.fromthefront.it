@@ -24,6 +24,10 @@
 
     partyToggle.addEventListener('click', openTip, false);
     venueToggle.addEventListener('click', openTip, false);
+    partyToggle.addEventListener('mouseenter', openTip, false);
+    venueToggle.addEventListener('mouseenter', openTip, false);
+    partyToggle.addEventListener('mouseleave', closeTips, false);
+    venueToggle.addEventListener('mouseleave', closeTips, false);
 
   }
 }());

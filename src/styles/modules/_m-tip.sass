@@ -1,10 +1,17 @@
 .m-tip
-  display: none
+  visibility: hidden
+  opacity: 0
+  transform: translateX(-10%)
+  transition: all 150ms ease-out 0ms
   background-color: white;
   color: black
   padding: 0.5rem
+  border-radius: 5px
+  text-align: center
   &.is-tip-active
-    display: block
+    visibility: visible
+    opacity: 1
+    transform: translateX(0%)
   +media(">tablet-portrait")
     font-size: rem($ratio__large)
     padding: 1rem
@@ -12,11 +19,16 @@
   &__title
     font-size: em($ratio__small)
     line-height: 1
-    margin: 0
+    margin: 0 0 0.25em
+    padding: 0 0 0.25em
+    border-bottom: 1px solid $color__primary
+    +media(">tablet-portrait")
+      padding: 0 0 0.5em
 
   &__text
     font-size: em($ratio__tiny)
     margin-bottom: 0
+    line-height: 1.2
 
   &--venue-toggle
     position: absolute
@@ -24,5 +36,5 @@
     left: 57%
   &--party-toggle
     position: absolute
-    top: 4%
+    top: 6%
     left: 47%
