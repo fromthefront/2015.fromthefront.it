@@ -1,30 +1,74 @@
 .m-nav
-  +position(absolute, top 0 left 0 right 0)
+  position: relative
   z-index: z-index(header)
-  margin: ($rithm / 2) 0 0
+  background-color: $color__secondary
+  +media(">tablet-portrait")
+    background-color: transparent
+  .t-blue &
+    background-color: $color__text
+    color: white
+
+  // toggle
+  &__toggle-input
+    display: none
+    &:checked ~ .m-nav__list
+      display: block
+
+  &__toggle-label
+    display: block
+    width: 100%
+    text-align: center
+    padding: 0.5rem
+    color: $color__background
+    font-weight: 700
+    text-transform: uppercase
+    letter-spacing: 1px
+    &::before
+      content: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20125%22%3E%3Cpath%20fill%3D%22%23efdb9f%22%20d%3D%22M89%2018H11c-3.59%200-6.5%202.91-6.5%206.5S7.41%2031%2011%2031h78c3.59%200%206.5-2.91%206.5-6.5S92.59%2018%2089%2018zM89%2045H11c-3.59%200-6.5%202.91-6.5%206.5S7.41%2058%2011%2058h78c3.59%200%206.5-2.91%206.5-6.5S92.59%2045%2089%2045zM95.5%2078.5c0-3.59-2.91-6.5-6.5-6.5H11c-3.59%200-6.5%202.91-6.5%206.5S7.41%2085%2011%2085h78c3.59%200%206.5-2.91%206.5-6.5z%22%2F%3E%3C%2Fsvg%3E%0A')
+      display: inline-block
+      width: 1em
+      height: 1em
+      position: relative
+      top: 0.35em
+      margin-right: 0.25rem
+    +media(">tablet-portrait")
+      display: none
+
+  // list
 
   &__list
+    display: none
     +unset-list
     text-align: center
     white-space: nowrap
     width: 100%
     overflow-x: auto
-    padding-bottom: $rithm / 2
-    //+scrollbar(2px, color(brown), color(red))
+    padding: ($rithm / 2) ($rithm / 2) $rithm
+    +media(">tablet-portrait")
+      display: block
+      padding: ($rithm / 2) ($rithm / 2) $rithm
 
   &__item
-    display: inline-block
+    text-align: left
+    display: block
     margin: 0 ($rithm / 3)
+    border-bottom: 1px solid white
+    +media(">tablet-portrait")
+      display: inline-block
+      border-bottom: medium none
 
   &__link
+    display: block
+    padding: 1rem 0 0.25rem
     background-image: none
     text-transform: uppercase
     letter-spacing: 1px
-    color: color(purple)
+    color: color(red)
     +on-interaction
-      color: darken(color(purple), 10)
+      color: darken(color(red), 10)
     font:
       weight: 700
       size: em($ratio__base)
     +media(">tablet-portrait")
       font-size: em($ratio__base)
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class=" t-home ">
+<html lang="en" class=" t-blue ">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,8 +43,38 @@
 
   </head>
   <body>
-
-    <main id="main" class="l-main" role="main">
+    <nav class="m-nav">
+      <input class="m-nav__toggle-input" type="checkbox" name="nav-toggle" id="nav-toggle">
+      <label class="m-nav__toggle-label" for="nav-toggle">Menu</label>
+      <ul class="m-nav__list">
+        <li class="m-nav__item">
+          <a href=".." class="m-nav__link">
+            Home
+          </a>
+        </li>
+        <li class="m-nav__item">
+          <a href="../speakers.html" class="m-nav__link">
+            Speakers
+          </a>
+        </li>
+        <li class="m-nav__item">
+          <a href="../venue.html" class="m-nav__link">
+            Venue
+          </a>
+        </li>
+        <li class="m-nav__item">
+          <a href="../index.html#sponsors" class="m-nav__link">
+            Sponsors
+          </a>
+        </li>
+        <li class="m-nav__item">
+          <a href="../index.html#tickets" class="m-nav__link">
+            Tickets
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main" class="l-main t-home" role="main">
       
 <article class="l-page t-blue">
   <div id="venue" class="l-page__section is-on-top">
@@ -61,7 +91,15 @@
     </div>
   </div>
   <div class="l-page__section extra-margin">
-   <img src="assets/images/duse.jpg" alt="A view from Teatro Duse" class="l-page__image">
+   <img
+    src="assets/images/duse-s.jpg"
+    srcset="
+      assets/images/duse-m.jpg 1024w,
+      assets/images/duse-l.jpg 1200w,
+      assets/images/duse-xl.jpg 1420w
+    "
+    alt="A view from Teatro Duse"
+    class="l-page__image">
    <div class="o-image-mask">
      <img src="assets/images/svg/divider-pot.svg" alt="" class="o-image-mask__left">
      <img src="assets/images/svg/divider-cup.svg" alt="" class="o-image-mask__right">

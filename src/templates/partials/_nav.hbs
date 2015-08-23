@@ -1,4 +1,6 @@
 <nav class="m-nav">
+  <input class="m-nav__toggle-input" type="checkbox" name="nav-toggle" id="nav-toggle">
+  <label class="m-nav__toggle-label" for="nav-toggle">Menu</label>
   <ul class="m-nav__list">
     <li class="m-nav__item">
       <a href="{{relative page.dest "./"}}" class="m-nav__link">
@@ -8,6 +10,11 @@
     <li class="m-nav__item">
       <a href="{{relative page.dest "./"}}/speakers.html" class="m-nav__link">
         Speakers
+      </a>
+    </li>
+    <li class="m-nav__item">
+      <a href="{{relative page.dest "./"}}/venue.html" class="m-nav__link">
+        Venue
       </a>
     </li>
     <li class="m-nav__item">
