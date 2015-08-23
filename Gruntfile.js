@@ -74,6 +74,7 @@ module.exports = function(grunt) {
           '<%= config.src %>/js/animations/flowers.js',
           '<%= config.src %>/js/animations/parallax.js',
           '<%= config.src %>/js/animations/clouds.js',
+          '<%= config.src %>/js/map-tips.js',
           '<%= config.src %>/js/app.js'
         ],
         dest: '<%= config.dist %>/assets/js/app.js'

@@ -1,0 +1,28 @@
+.m-tip
+  display: none
+  background-color: white;
+  color: black
+  padding: 0.5rem
+  &.is-tip-active
+    display: block
+  +media(">tablet-portrait")
+    font-size: rem($ratio__large)
+    padding: 1rem
+
+  &__title
+    font-size: em($ratio__small)
+    line-height: 1
+    margin: 0
+
+  &__text
+    font-size: em($ratio__tiny)
+    margin-bottom: 0
+
+  &--venue-toggle
+    position: absolute
+    top: 60%
+    left: 57%
+  &--party-toggle
+    position: absolute
+    top: 4%
+    left: 47%
