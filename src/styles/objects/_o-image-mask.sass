@@ -1,0 +1,16 @@
+.o-image-mask
+  +position(absolute, bottom -11%)
+  width: 100%
+
+  &__left
+    width: 45%
+    max-width: 20rem
+    +media(">tablet-landscape")
+      max-width: $medium-col
+
+  &__right
+    +position(absolute, top 0 right 0)
+    width: 45%
+    max-width: 20rem
+    +media(">tablet-landscape")
+      max-width: $medium-col

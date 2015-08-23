@@ -1,0 +1,16 @@
+.o-tower
+  position: relative
+  z-index: z-index(decorations)
+
+  &__left
+    width: 45%
+    max-width: 20rem
+    +media(">tablet-landscape")
+      max-width: $medium-col
+
+  &__tower
+    +position(absolute, top -40% right 0)
+    width: 45%
+    max-width: 20rem
+    +media(">tablet-landscape")
+      max-width: $medium-col

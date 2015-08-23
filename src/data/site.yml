@@ -1,4 +1,5 @@
 title: From the Front 2015
+theme: t-home
 call_to_action: Get your ticket!
 speaker_teaser_intro: A fantastic adventure featuring...
 speaker_teaser_outro: ...and more to come
@@ -8,3 +9,7 @@ newsletter_action: subscribe to the newsletter
 speaker_page_title: Meet our<br>speaker
 topbar: Frontend in wonderland
 backtospeakers: back to wonderland
+venueConference: "Bologna is a lively and cosmopolitan italian city, with spectacular history, art, cuisine and culture.<br><br>The conference will take place at the inspiring Teatro Duse, a wonderful XVII century building recently renovated. It's one of the oldest theatres in the city, and its actual name was given in 1898 to honour Eleonora Duse, the main Italian actress at the time, while she was still alive and acting."
+venueConferenceAddress: "<ul class='vcard'><li class='fn'>Teatro Duse</li><li><span class='street-address'>via Cartoleria, 42</span> &mdash; <span class='locality'>Bologna</span>, <span class='state'>Italy</span></li><li>[open in google maps](https://www.google.de/maps/place/Via+Cartoleria,+42,+40124+Bologna,+Italia/@44.48865,11.34801,17z/data=!3m1!4b1!4m2!3m1!1s0x477fd4c724b2be89:0x980bfb5ddfd5936a?hl=en)</li></ul>"
+venueParty: "Our amazing night party will take place at **Le Mercanzie Lounge Bar**, a wonderful XVII century building recently renovated. We're going to have once again the delicious [Birra Cerqua](http://www.birracerqua.com/en/) – the tastiest craft beer in town!"
+venuePartyAddress: "<ul class='vcard'><li class='fn'>Le Mercanzie Lounge Bar</li><li><span class='street-address'>Piazza della Mercanzia, 2/A</span> &mdash; <span class='locality'>Bologna</span>, <span class='state'>Italy</span></li><li>[open in google maps](https://www.google.de/maps/place/Mercanzie+Lounge+Bar/@44.4938294,11.3466315,17z/data=!3m1!4b1!4m2!3m1!1s0x477fd4bef38193bb:0xece4a26bc7104f7a?hl=en)</li></ul>"

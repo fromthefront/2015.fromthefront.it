@@ -1,0 +1,42 @@
+---
+title: Venue
+---
+<article class="l-page t-blue">
+  <div id="venue" class="l-page__section is-on-top">
+    <div class="l-page__main">
+      <h2>The conference venue</h2>
+{{#markdown}}
+  {{{site.venueConference}}}
+{{/markdown}}
+{{#markdown}}
+  {{{site.venueConferenceAddress}}}
+{{/markdown}}
+    </div>
+    <div class="l-page__section-illustration">
+      <div class="o-tower">
+        <img src="{{assets}}/images/svg/left-corner.svg" alt="" class="o-tower__left">
+        <img src="{{assets}}/images/svg/tower-solo.svg" alt="" class="o-tower__tower">
+      </div>
+    </div>
+  </div>
+  <div class="l-page__section extra-margin">
+   <img src="{{assets}}/images/duse.jpg" alt="A view from Teatro Duse" class="l-page__image">
+   {{> _image-mask}}
+  </div>
+  <div id="party" class="l-page__section">
+    <div class="l-page__main">
+      <h2>The party</h2>
+{{#markdown}}
+  {{{site.venueParty}}}
+{{/markdown}}
+{{#markdown}}
+  {{{site.venuePartyAddress}}}
+{{/markdown}}
+    </div>
+    {{> _dancing-knights}}
+  </div>
+  <div class="l-page__section">
+    {{> _map}}
+  </div>
+</article>
+{{> _tickets modifier="is-ending-module"}}
