@@ -57,21 +57,32 @@
 
   &__section
     position: relative
-    &:nth-child(1)
-      margin-top: 5rem
+    padding: 2rem 0 3rem
     &.is-on-top
       z-index: z-index(text)
+    &.no-padding
+      padding: 0
     &.extra-margin
       margin-bottom: 12rem
 
   &__section-illustration
     +media(">desktop")
-      margin-top: -10rem
+      margin-top: -16rem
 
   &__image
     width: 100%
     max-width: $large-col + 16
-    margin: 0 auto
+    margin: 0 auto $rithm
+
+  &.big-image
+    .l-page__section
+      padding: 0
+      &:nth-child(1)
+        padding-top: 4rem
+    .l-page__section-illustration
+      +media(">desktop")
+        margin-top: -12rem
+
 
 
 

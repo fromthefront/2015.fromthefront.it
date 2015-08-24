@@ -2,14 +2,13 @@
 title: Venue
 theme: t-blue
 ---
-<article class="l-page t-blue">
+<article class="l-page t-blue big-image">
   <div id="venue" class="l-page__section is-on-top">
     <div class="l-page__main">
       <h2>The conference venue</h2>
 {{#markdown}}
   {{{site.venueConference}}}
 {{/markdown}}
-      <img class="l-page__image" src="{{assets}}/images/teatro-duse.jpg" alt="A view from Teatro Duse">
 {{#markdown}}
   {{{site.venueConferenceAddress}}}
 {{/markdown}}
@@ -21,7 +20,19 @@ theme: t-blue
       </div>
     </div>
   </div>
-  <div id="party" class="l-page__section is-on-top">
+  <div class="l-page__section extra-margin">
+   <img
+    src="{{assets}}/images/duse-s.jpg"
+    srcset="
+      {{assets}}/images/duse-xl.jpg 1420w,
+      {{assets}}/images/duse-l.jpg 1200w,
+      {{assets}}/images/duse-m.jpg 1024w
+    "
+    alt="A view from Teatro Duse"
+    class="l-page__image">
+   {{> _image-mask}}
+  </div>
+  <div id="party" class="l-page__section">
     <div class="l-page__main">
       <h2>The party</h2>
 {{#markdown}}
@@ -33,7 +44,7 @@ theme: t-blue
     </div>
     {{> _dancing-knights}}
   </div>
-  <div class="l-page__section no-padding">
+  <div class="l-page__section">
     {{> _map}}
   </div>
 </article>
