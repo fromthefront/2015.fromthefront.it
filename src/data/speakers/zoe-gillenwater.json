@@ -3,6 +3,9 @@
   "twitter": "zomigi",
   "shortinfo": "",
   "order": 4,
+  "day": 18,
+  "place": 4,
+  "time": "11:45",
   "bio": "Zoe is a Web designer and developer specialising in Responsive Web design, user experience, and Web accessibility techniques to maximise usability, device compatibility, and awesomeness.<br/><br/>She is the author of the “[New Riders books Stunning CSS3](http://www.stunningcss3.com/): A Project-based Guide to the Latest in CSS” and “[Flexible Web Design](http://www.flexiblewebbook.com/): Creating Liquid and Elastic Layouts with CSS” and the video training “Web Accessibility Principles” for [lynda.com](http://www.lynda.com/Dreamweaver-tutorials/web-accessibility-principles/448-2.html). She currently works as a UX designer for [Booking.com](http://booking.com).",
   "talk-abstract":"Flexbox and responsive web design go great together, like peanut butter and jelly. Flexbox gives you more control over the things you care about in a responsive layout—like order, alignment, and proportional sizes of your boxes—and lets the browser figure out the rest—the math-y stuff that computers are good at, like the exact dimensions that are needed on the boxes to perfectly fill the available space. You can create much more complex and reliable layouts with flexbox than you can with floats, table display, or inline-block, all with far less CSS.<br/><br/>In this talk, you’ll learn which features of flexbox are particularly suited to responsive layouts and how you can harness them today by applying flexbox as progressive enhancement. We’ll look at examples of responsive page components and patterns that you can enhance further by layering flexbox on top of other layout methods, ensuring all users get a good experience. ",
   "talk-title": "Enhancing Responsiveness with Flexbox"

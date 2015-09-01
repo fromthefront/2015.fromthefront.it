@@ -3,6 +3,9 @@
   "twitter": "csswizardry",
   "shortinfo": "",
   "order": 12,
+  "day": 18,
+  "place": 3,
+  "time": "12:30",
   "bio": "With a client list including *Google*, the *United Nations*, and *Unilever*, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs.<br/><br/>He writes on the subjects of CSS architecture, performance, and scalability at [csswizardry.com](http://csswizardry.com); develops and maintains [inuitcss](https://github.com/inuitcss) and authored [CSS Guidelines](http://cssguidelin.es).",
   "talk-abstract":"Depending on where you draw your measurements from, the first programming languages for use on ‘modern’ electric computers were designed in the ’40s and ’50s. CSS, on the other hand, is a mere adolescent—born in 1996, it’s just 18 years old. This means that software engineers have had over four decades’ head start on us: we should be listening to a lot more of what they have to say.<br/><br/>In this talk, we’ll take a look at some very traditional computer science and software engineering paradigms and how we can steal, bend, borrow, and reimplement them when writing our CSS. Writing CSS like software engineers so that we can become better CSS developers.",
   "talk-title": "CSS for Software Engineers for CSS Developers"

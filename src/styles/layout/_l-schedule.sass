@@ -1,0 +1,15 @@
+.l-schedule
+  width: 100%
+  max-width: $narrow-col
+  margin: 0 auto
+
+  &__title
+    text-align: center
+    +media(">tablet-portrait")
+      +h3
+    +media(">tablet-landscape")
+      text-align: left
+
+  &__list
+    margin: ($rithm * 2) auto
+

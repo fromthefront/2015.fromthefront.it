@@ -13,6 +13,9 @@
     max-width: $medium-col
     margin: 0 auto
     width: 100%
+    &--with-top-illustration
+      +media(">=tablet-landscape")
+        margin-top: -16vw
 
   &__main--large
     max-width: $large-col
@@ -22,6 +25,14 @@
     text-align: center
     +media(">=desktop")
       top: 6rem
+    &--with-top-illustration
+      top: calc((-#{$rithm} * 2) - 1vw)
+      +media(">=tablet-portrait")
+        top: calc((-#{$rithm} * 7) - 1vw)
+      +media(">=tablet-landscape")
+        top: calc((-#{$rithm} * 14) - 1vw)
+      +media(">=desktop")
+        top: calc((-#{$rithm} * 20) - 1vw)
 
   &__title
     +h2

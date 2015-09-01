@@ -1,0 +1,34 @@
+.m-schedule-item
+  margin: ($rithm * 1.5) 0
+  display: table
+  display: flex
+  justify-content: space-around
+
+  &__time
+    flex: 1
+    display: table-cell
+    font-weight: 700
+
+  &__event
+    flex: 1 1 66%
+    display: table-cell
+    text-transform: uppercase
+    letter-spacing: 1px
+    color: $color__secondary
+    font-weight: 700
+    padding: 0 $rithm
+    &--link
+      background-image: none
+      color: $color__primary
+      +on-interaction
+        color: $color__link--hover
+
+  &__speaker
+    flex: 1 1 66%
+    padding: 0 $rithm
+    font-weight: 700
+    margin: 0
+
+  &__talk
+    display: block
+    background-image: none

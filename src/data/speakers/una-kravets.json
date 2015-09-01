@@ -3,6 +3,9 @@
   "twitter": "una",
   "shortinfo": "",
   "order": 10,
+  "day": 18,
+  "place": 1,
+  "time": "09:45",
   "bio": "Una is a front-end developer, architecting design systems and building software prototypes on the Cloud Platform team at [IBM Design](https://www.ibm.com/design/), Austin. She is a core member of the [Open Design Foundation](http://opendesign.foundation/) and founder of both the Sassy DCand ATX Sass Meetups.<br/><br/>She's a performance nerd, but also loves illustration, hand-lettering, and audiobooks.",
   "talk-abstract":"When designers and developers work together from the start, it produces better outcomes. But how can we get designers involved and wanting to participate in the open source community from the start? In order to figure out how to fix it, we need to take a look at the barriers (why designers don't participate in open source), and how we can work together to influence change. I’ve recently had a wonderful open source experience building Sass Director and working with other developers to port it across systems. But not everyone can easily collaborate on open source projects without significant effort. There are so many talented designers out there who want to be involved!<br/><br/>This talk is about solutions. We'll discuss what we can do right now, from labeling issues as `design needed` to including contribution guidelines that are clear and easy to follow, and setting up feedback guidelines. Most of all, we’ll talk about empathy — which is really the key factor in a bourgeoning community.",
   "talk-title": "Open Source Design: A Love Story"

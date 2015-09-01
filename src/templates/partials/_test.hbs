@@ -1,0 +1,7 @@
+<section class="l-speakers">
+        {{#each (sort (before (sort speakers.list "day") 8) "place") }}
+          <div class="l-speakers__slot">
+            {{> _speaker-schedule}}
+          </div>
+        {{/each}}
+    </section>

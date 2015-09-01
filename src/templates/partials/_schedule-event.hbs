@@ -1,0 +1,15 @@
+<li class="m-schedule-item m-schedule-item--event">
+  <span class="m-schedule-item__time">
+    {{time}}
+  </span>
+
+  {{#if link}}
+    <a href="{{relative page.dest "./"}}/{{link}}" class="m-schedule-item__event m-schedule-item__event--link">
+      {{event}}
+    </a>
+  {{else}}
+    <span class="m-schedule-item__event">
+      {{event}}
+    </span>
+  {{/if}}
+</li>

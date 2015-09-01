@@ -1,0 +1,23 @@
+<div class="l-schedule l-schedule--second-day">
+  {{> _small-separator style="blue-leaf"}}
+  <h2 class="l-schedule__title">
+    18th September
+  </h2>
+  <ul class="l-schedule__list">
+    {{> _schedule-event time="09:00" event="Registration" }}
+    {{> _schedule-event time="09:30" event="Welcome" }}
+    {{#each (sort (after (sort speakers.list "day") 8) "place")  }}
+      {{> _schedule-speaker}}
+      {{#is @index 1}}
+        {{> _schedule-event time="11:15" event="Break" }}
+      {{/is}}
+      {{#is @index 3}}
+        {{> _schedule-event time="13:15" event="Lunch" }}
+      {{/is}}
+      {{#is @index 5}}
+        {{> _schedule-event time="16:15" event="Break" }}
+      {{/is}}
+    {{/each}}
+    {{> _schedule-event time="18:00" event="Closing remarks" }}
+  </ul>
+</div>

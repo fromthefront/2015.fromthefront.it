@@ -4,6 +4,9 @@
   "name": "Tim Kadlec",
   "twitter": "tkadlec",
   "shortinfo": "",
+  "day": "17",
+  "place": "1",
+  "time": "09:45",
   "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at [‪Akamai‬](‪http://akamai‬.com).<br/><br/>He is the author of '[Implementing Responsive Design](http://www.implementingresponsivedesign.com/): Building sites for an anywhere, everywhere web' and was a contributing author for '[Smashing‬ Book #4](https://shop.smashingmagazine.com/products/smashing-book-4-ebooks): New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts [The Path to Performance Podcast](http://pathtoperf.com/).",
   "talk-abstract":"Mobile subscriptions continue to increase at an incredible rate, with most of that growth coming from emerging economies such as Africa and Southeast Asia. These areas are dominated by slow, intermittent connectivity and low-end devices. If companies aren’t already taking steps to ensure they are able to reach these new audiences, they soon will be.",
   "talk-title": "Reaching Everyone, Fast"

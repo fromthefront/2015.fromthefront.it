@@ -1,0 +1,15 @@
+<li class="m-schedule-item m-schedule-item--speaker">
+  <span class="m-schedule-item__time">
+    {{time}}
+  </span>
+  <p class="m-schedule-item__speaker">
+    {{name}}
+    <a href="./speakers/{{hyphenate (lowercase name) }}.html" class="m-schedule-item__talk">
+      {{#if talk-title}}
+        {{talk-title}}
+      {{else}}
+       To be announced
+      {{/if}}
+    </a>
+  </p>
+</li>

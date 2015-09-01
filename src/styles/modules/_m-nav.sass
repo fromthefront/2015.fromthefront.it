@@ -7,6 +7,14 @@
   .t-blue &
     background-color: $color__text
     color: white
+    margin-bottom: -2px
+  .t-top-illustration &
+    background-color: $color__text
+    color: white
+    margin-bottom: -2px
+    +media(">tablet-portrait")
+      +position(absolute, top 0 left 0 right 0)
+
 
   // toggle
   &__toggle-input

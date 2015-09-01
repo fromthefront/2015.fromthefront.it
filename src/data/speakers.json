@@ -3,6 +3,9 @@
   "name": "Amelia Andersdotter",
   "twitter": "teirdes",
   "shortinfo": "",
+  "day": 17,
+  "place": 4,
+  "time": "12:30",
   "bio": "From 2011 to 2014, Amelia was a member of the European Parliament. Since then, she is on the advisory group for the [Internet Governance Forum](http://www.intgovforum.org) at the United Nations.<br/><br/>She is also founder and director at [dataskydd.net](https://dataskydd.net/), and she has been involved in [copywrongs](http://copywrongs.eu/), a pan-European initiative to help citizens engage in the European Union copyright reform of 2015."
 }
 ,{
@@ -10,6 +13,9 @@
   "twitter": "andrewpendrick",
   "shortinfo": "",
   "order": 11,
+  "day": 18,
+  "place": 2,
+  "time": "10:30",
   "bio": "Andrew started designing and building sites on an agency treadmill then promoting user centered design to a reluctant banking behemoth before leaving to join a small design and research team building niche stuff for large audiences<br/><br/>After a couple of years at co-helming [Folksy](https://folksy.com/), the modern British craft marketplace, he now spends his days as a product owner trying to make the world’s leading accommodation platform better over at [Booking.com](http://booking.com).",
   "talk-abstract":"Not knowing quite where to start or indeed how to end this talk, I've been thinking about our cognitive revolution, an ancient mound in South West England, the Walkman and bakelite radios, geodesic domes and sushi. Is it possible to thread these thoughts into a narrative that leads to a new design process? And if it is possible, is it a good idea?<br/><br/>Will this be relevant to you, your work or even this conference? Who can tell. Sometimes we have to start in the opposite direction to arrive at the end. I’ll throw in a few of my favourite product designs if the crowd gets restless.",
   "talk-title": "An Incomplete Talk"
@@ -20,6 +26,9 @@
   "twitter": "anna_debenham",
   "shortinfo": "",
   "order": 3,
+  "day": 17,
+  "time": "16:45",
+  "place": 7,
   "bio": "Anna Debenham is a freelance front-end developer based in London.<br/><br/>She was awarded Young Developer of the Year by Netmag in 2013. She's written a book on [Front End Style Guides](http://maban.co.uk/projects/front-end-style-guides/), and co-hosts [a pocast with Brad Frost on Style Guides](http://styleguides.io/podcast/). When she's not playing on them, she's researching the browsers on game consoles.",
   "talk-abstract":"After interviewing a dozen people with Brad Frost for their podcast on Style Guides for the web, Anna has collated all their findings for this talk on the different kinds that are out there, how they're built, what works (and what doesn't), and what makes them such a useful tool.<br/><br/>She'll give you a tour of some style guides built by companies with a range of different needs and requirements, and you'll learn how to build your own using a range of possible technologies.",
   "talk-title": "Front-end Style Guides"
@@ -29,6 +38,9 @@
   "name": "Cathy Wang",
   "twitter": "cathycracks",
   "shortinfo": "",
+  "day": 18,
+  "place": 7,
+  "time": "16:45",
   "bio": "Dreamer of the future. Cathy is always looking for ways to apply design thinking to solve complex problems and create meaningful solutions. Cathy builds businesses and open new markets based on the belief that the design thinking can really change the world. <br><br>Cathy can be found mostly in London, where she helps startups shape their businesses and vision as an independent consultant. Prior to this, Cathy has worked in agencies like [Frog](http://www.frogdesign.com/) and [Fjord](https://www.fjordnet.com/).  She is passionate about business modelling, service design, and social enterprises, with a human-centric focus.",
   "talk-abstract": "We have always heard of the cliché phrase: “sex sells.” How do we design in a world that is intentionally and unintentionally sexually-biased? Taking a deeper look at how to design for the different sexes. From objectifying women like Marilyn Monroe to “Look at me now” Old Spice guy, what will the future be like for sex-oriented design?<br/><br/>In this session, we will explore different examples of gender prejudice and mental molds within the digital realm. Looking at different case studies of user experiences crafted with focuses on sex and gender. Discussing the definition for boundaries of sexism and vulgarity in different ux examples.",
   "talk-title": "The Future in designing for the sex(es)"
@@ -38,6 +50,9 @@
   "twitter": "folletto",
   "shortinfo": "",
   "order": 2,
+  "day": 18,
+  "place": 6,
+  "time": "15:30",
   "bio": "He is user experience director and startup advisor with a hybrid background in design, psychology and technology.<br/><br/>His objective is to change for better the quality of life of the people through the products he designs and lead. He currently works in [‪Automattic‬](http://automattic.com), maker of [WordPress.com](http://www.wordpress.org).<br/><br/>He believes that “Simplicity is the ultimate sophistication”.",
   "talk-abstract":"Focus is something often overlooked because seems intuitive what it means. Sometimes we wish we could be less distracted, some other time we wonder why the project didn't reach the objective we had in mind. Focus plays a relevant role in all these situations.<br/><br/>In this talk we are going to see six different kinds of focus, revolving around goals, users, attention and inner calm, from the highest, more outward level, to the lowest, more personal level.<br/><br/>Transforming each one of these six focus elements in activities in your daily craft will help you, your team and your clients to be more effective and achieve a better work / life balance.",
   "talk-title": "The Six Elements of Focus to Improve Your Craft"
@@ -48,6 +63,9 @@
   "twitter": "csswizardry",
   "shortinfo": "",
   "order": 12,
+  "day": 18,
+  "place": 3,
+  "time": "12:30",
   "bio": "With a client list including *Google*, the *United Nations*, and *Unilever*, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs.<br/><br/>He writes on the subjects of CSS architecture, performance, and scalability at [csswizardry.com](http://csswizardry.com); develops and maintains [inuitcss](https://github.com/inuitcss) and authored [CSS Guidelines](http://cssguidelin.es).",
   "talk-abstract":"Depending on where you draw your measurements from, the first programming languages for use on ‘modern’ electric computers were designed in the ’40s and ’50s. CSS, on the other hand, is a mere adolescent—born in 1996, it’s just 18 years old. This means that software engineers have had over four decades’ head start on us: we should be listening to a lot more of what they have to say.<br/><br/>In this talk, we’ll take a look at some very traditional computer science and software engineering paradigms and how we can steal, bend, borrow, and reimplement them when writing our CSS. Writing CSS like software engineers so that we can become better CSS developers.",
   "talk-title": "CSS for Software Engineers for CSS Developers"
@@ -57,6 +75,9 @@
   "twitter": "mrrio",
   "shortinfo": "",
   "order": 5,
+  "day": 17,
+  "place": 3,
+  "time": "11:45",
   "bio":"James Hall has been working in the digital sector for 12 years. He is the author of the popular [‪‎jsPDF‬](https://parall.ax/products/jspdf) library, and is a founder/Director of [‪Parallax‬](http://parall.ax/), a digital agency in the UK. <br/><br/>He has worked as a software developer on a wide variety of projects, from LED Billboards, car unlocking apps, to large web applications and tools.",
   "talk-abstract":"Security is boring, but it doesn't have to be.<br/><br/>James will be talking about the state of web security today, showing off common flaws, and explaining how we can all improve security for our customers.<br/><br/>He'll take you through the basics of cryptography, and explain some more advanced concepts in terms a novice will be able to understand. ",
   "talk-title": "Security is Everyone's Responsibility"
@@ -67,6 +88,9 @@
   "twitter": "petrosalema",
   "shortinfo": "",
   "order": 14,
+  "day": 18,
+  "place": 8,
+  "time": "17:15",
   "bio": "Petro currently leads the development of [Aloha Editor](http://www.alohaeditor.org), to make the web a platform for text based editing.<br/><br/>He discovered the possibilities for software to impact the human condition with the World Wide Web in his early teens. He noticed that most of the limitations on what we can build with software are only as insurmountable as the limits to our imagination, and thus began his study of code and design—the craft, and the people behind it.",
   "talk-abstract":"Among the most significant shifts taking place in technology are two interrelated trends: one is the emergence of personal identity as a fundamental component of software; the second is the movement towards software replacing users as the initiating agent in human-computer interaction.<br/><br/>Hyperconnectivity and exponential growth in computational power has made it possible to have computers involved in more facets of our lives than ever before. But as software grows in its ability to process information, the human user does not. Our processing capacity and our attention bandwidth are finite; Moore's Law does not apply to human beings. It is this inherent imbalance in how computer and human systems scale that is driving the emerging mode of computing.<br/><br/>It can be argued that all design is a response to the problems brought about by previous solutions, so this talk will explore how our trajectory from information scarcity to information abundance has brought about new challenges that now are engendering new models of interaction.",
   "talk-title": "Ghosts In The Shell"
@@ -78,6 +102,9 @@
   "twitter": "razsadeq",
   "shortinfo": "",
   "order": 13,
+  "day": 17,
+  "place": 5,
+  "time": "14:45",
   "bio": "Razan is a user researcher at [Spotify](http://www.spotify.com). Razan’s goal is to get paid to have fun, and that's what she does today.<br/><br/>She's incredibly passionate and curious about understanding people and immersing herself in their wold. Why do they listen to music? How, when, what, who, why, why, why?! As she describes is, it's like playing detective.<br/><br/>Her previous gigs include working at [art+com](http://artcom.de/) in Berlin creating interactive installations, and hustling in the online fashion world where she specialised in user research.",
   "talk-abstract":"We’ve all been there - that moment when you, designers and researchers, are stumped and overwhelmed with hours of video, thousands of photos, artifacts, and documents. What should you do next? How do you do it? And how do you know when you've done a good job?<br/><br/>As with all detective work, design research is not a random search for clues; it is a structured, coherent and systematic process aiming to solve problems. In her talk, Razan will alternate between the detective hat and our UX hat as we take a look at the mindset, the skills, and the techniques we can learn from the greatest detective of them all - Sherlock Holmes.",
   "talk-title": "What I Learned From Sherlock Holmes - User Research Experiences"
@@ -88,6 +115,9 @@
   "twitter": "sjenkinson",
   "shortinfo": "",
   "order": 8,
+  "day": 17,
+  "place": 2,
+  "time": "10:30",
   "bio": "Sally is a technical consultant and solutions architect who, through her company Records Sound the Same, helps both big and small businesses with their discovery, planning, and strategic digital decisions. She focuses on using technology to enhance experiences.<br/><br/>She is a coder, author, gamer, and tea drinker.",
   "talk-abstract":"In a world where many of our digital spaces are becoming more closed than ever, open data is a concept that is rapidly on the rise.<br/><br/>In this talk we’ll explore what open data is (and what it isn’t), why we should care about it, and look at how you can introduce it into your projects with regards to practical publication and consumption. We’ll specifically consider open data within the context of front-end development, including discussing some useful tools and reference points.<br/><br/>Open data isn’t just dry and technical - it gives us great scope to be creative, and throughout this talk we’ll go through some of the amazing things that it has been used for globally, in the hope that it will inspire you to create something yourself.",
   "talk-title": "Open your data: open your mind"
@@ -97,6 +127,9 @@
   "twitter": "shanehudson",
   "shortinfo": "",
   "order": 7,
+  "day": 17,
+  "place": 6,
+  "time": "15:30",
   "bio": "Despite being a constant presence on Twitter, he is a freelance developer interested in the weird and wonderful of the web.<br/><br/>He has previously worked on a web-based geographic data portal at [Plymouth Marine Laboratory](http://www.pml.ac.uk/) and written a book called [JavaScript ‪Creativity‬](http://www.apress.com/9781430259442).",
   "talk-abstract":"The web lets us express creativity and enhance communication in incredible ways, so why is it that we painstakingly craft our design and code but pay almost no attention at all to map? The purpose of this talk is to explore the history and importance of cartography, as well as practical ways to make make your own maps. There really is no need to use the default Google map for every single map on the web.",
   "talk-title": "Putting Design On The Map"
@@ -106,6 +139,9 @@
   "twitter": "sharonsteed",
   "shortinfo": "",
   "order": 15,
+  "day": 17,
+  "place": 8,
+  "time": "17:45",
   "bio": "Sharon is a communications consultant with over a decade of experience creating and managing content. She helps companies communicate better with their audience as well as their fellow team members.<br/><br/>She has spoken to universities about stuttering, at Ignite Chicago about patience, and several tech conferences about improving communication skills through embracing vulnerabilities.",
   "talk-abstract":" Developers are trained to communicate to things with a goal in mind. When you're talking to something like, say a computer, you type in your code and it responds by giving you back what you want. Nine times out of ten, it works perfectly. Why, then, is it so difficult to do this same thing when talking to a client about a project, updating a superior on your progress, or pitching an investor your million-dollar idea? Because talking to people requires a special set of skills - namely, empathy and a little bit of storytelling. In an industry filled with brilliant minds, great ideas and mass disruption, so few of the best and brightest know how to tell their compelling story.<br/><br/>The takeaways from this talk will be learning how to value the listener, improved social connection and becoming a master at building a relationship quickly and effectively. ",
   "talk-title": "How to talk to humans: a different approach to soft skills"
@@ -116,6 +152,9 @@
   "name": "Tim Kadlec",
   "twitter": "tkadlec",
   "shortinfo": "",
+  "day": "17",
+  "place": "1",
+  "time": "09:45",
   "bio": "Tim Kadlec is a web technology advocate pushing for a faster web at [‪Akamai‬](‪http://akamai‬.com).<br/><br/>He is the author of '[Implementing Responsive Design](http://www.implementingresponsivedesign.com/): Building sites for an anywhere, everywhere web' and was a contributing author for '[Smashing‬ Book #4](https://shop.smashingmagazine.com/products/smashing-book-4-ebooks): New Perspectives on Web Design and Web Performance Daybook Volume 2'. Along with Katie Kovalcin, he co-hosts [The Path to Performance Podcast](http://pathtoperf.com/).",
   "talk-abstract":"Mobile subscriptions continue to increase at an incredible rate, with most of that growth coming from emerging economies such as Africa and Southeast Asia. These areas are dominated by slow, intermittent connectivity and low-end devices. If companies aren’t already taking steps to ensure they are able to reach these new audiences, they soon will be.",
   "talk-title": "Reaching Everyone, Fast"
@@ -125,6 +164,9 @@
   "twitter": "una",
   "shortinfo": "",
   "order": 10,
+  "day": 18,
+  "place": 1,
+  "time": "09:45",
   "bio": "Una is a front-end developer, architecting design systems and building software prototypes on the Cloud Platform team at [IBM Design](https://www.ibm.com/design/), Austin. She is a core member of the [Open Design Foundation](http://opendesign.foundation/) and founder of both the Sassy DCand ATX Sass Meetups.<br/><br/>She's a performance nerd, but also loves illustration, hand-lettering, and audiobooks.",
   "talk-abstract":"When designers and developers work together from the start, it produces better outcomes. But how can we get designers involved and wanting to participate in the open source community from the start? In order to figure out how to fix it, we need to take a look at the barriers (why designers don't participate in open source), and how we can work together to influence change. I’ve recently had a wonderful open source experience building Sass Director and working with other developers to port it across systems. But not everyone can easily collaborate on open source projects without significant effort. There are so many talented designers out there who want to be involved!<br/><br/>This talk is about solutions. We'll discuss what we can do right now, from labeling issues as `design needed` to including contribution guidelines that are clear and easy to follow, and setting up feedback guidelines. Most of all, we’ll talk about empathy — which is really the key factor in a bourgeoning community.",
   "talk-title": "Open Source Design: A Love Story"
@@ -134,6 +176,9 @@
   "twitter": "holman",
   "shortinfo": "",
   "order": 6,
+  "day": 18,
+  "place": 5,
+  "time": "14:45",
   "bio": "Zach Holman is a developer living in San Francisco. He joined [‪GitHub‬](http://github.com) in 2010 as one of their first engineering hires and helped build and grow their product and culture over five years.<br/><br/>He does a lot of public speaking about creating happy, productive software teams, and writes about the art of public speaking itself at [speaking.io](http://speaking.io).",
   "talk-abstract":"Most people are scared to present at a conference, or a meetup, or at a company meeting. Public speaking is a common fear, and many find themselves at night waking up from nightmares involving a disastrous speech. All too often, people think public speaking is something to be afraid of.<br/><br/>THEY'RE TOTALLY RIGHT OH MY GOD PUBLIC SPEAKING IS ONE OF THE MOST STRESSFUL THINGS YOURE EVER GOING TO DO PLEASE HIDE AND AVOID ALL HUMANS AND STRANGER DANGER<br/><br/>Now, that said, sometimes you're stuck. You can't very well turn down the speech at your best friend's wedding now, can you? Or maybe you can because secretly you don't like your friend as much as they think you do. You meanie. The best public speakers are as nervous as you are. They've just done it before, and they all do certain things much better than you. But you can change that. It's an extremely learnable skill. That's what this talk is all about.",
   "talk-title": "The Talk on Talks"
@@ -143,6 +188,9 @@
   "twitter": "zomigi",
   "shortinfo": "",
   "order": 4,
+  "day": 18,
+  "place": 4,
+  "time": "11:45",
   "bio": "Zoe is a Web designer and developer specialising in Responsive Web design, user experience, and Web accessibility techniques to maximise usability, device compatibility, and awesomeness.<br/><br/>She is the author of the “[New Riders books Stunning CSS3](http://www.stunningcss3.com/): A Project-based Guide to the Latest in CSS” and “[Flexible Web Design](http://www.flexiblewebbook.com/): Creating Liquid and Elastic Layouts with CSS” and the video training “Web Accessibility Principles” for [lynda.com](http://www.lynda.com/Dreamweaver-tutorials/web-accessibility-principles/448-2.html). She currently works as a UX designer for [Booking.com](http://booking.com).",
   "talk-abstract":"Flexbox and responsive web design go great together, like peanut butter and jelly. Flexbox gives you more control over the things you care about in a responsive layout—like order, alignment, and proportional sizes of your boxes—and lets the browser figure out the rest—the math-y stuff that computers are good at, like the exact dimensions that are needed on the boxes to perfectly fill the available space. You can create much more complex and reliable layouts with flexbox than you can with floats, table display, or inline-block, all with far less CSS.<br/><br/>In this talk, you’ll learn which features of flexbox are particularly suited to responsive layouts and how you can harness them today by applying flexbox as progressive enhancement. We’ll look at examples of responsive page components and patterns that you can enhance further by layering flexbox on top of other layout methods, ensuring all users get a good experience. ",
   "talk-title": "Enhancing Responsiveness with Flexbox"
