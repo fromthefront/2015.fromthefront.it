@@ -1710,7 +1710,6 @@ h4,
 
 .m-schedule-item {
   margin: 2.0625rem 0;
-  display: table;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1721,13 +1720,11 @@ h4,
     -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    display: table-cell;
     font-weight: 700; }
   .m-schedule-item__event {
     -webkit-flex: 1 1 66%;
         -ms-flex: 1 1 66%;
             flex: 1 1 66%;
-    display: table-cell;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #46466e;
