@@ -940,6 +940,17 @@ h4,
     .l-block--container, .m-footer__inner, .m-tickets__form {
       max-width: 72rem; } }
 
+@media (min-width: 700px) {
+  .l-columns {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.l-columns__column {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
 .l-main {
   position: relative;
   z-index: 10; }
