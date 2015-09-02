@@ -6,7 +6,7 @@
   <ul class="l-schedule__list">
     {{> _schedule-event time="08:30" event="Registration" }}
     {{> _schedule-event time="09:30" event="Welcome" }}
-    {{#each (sort (before (sort speakers.list "day") 8) "place")  }}
+    {{#schedule speakers.list}}
       {{> _schedule-speaker}}
       {{#is place 2}}
         {{> _schedule-event time="11:15" event="Break" }}
@@ -17,7 +17,7 @@
       {{#is place 6}}
         {{> _schedule-event time="16:15" event="Break" }}
       {{/is}}
-    {{/each}}
+    {{/schedule}}
     {{> _schedule-event time="18:00" event="Chats & Drinks" }}
     {{> _schedule-event time="21:00" event="Party!" link="venue.html#party"}}
   </ul>

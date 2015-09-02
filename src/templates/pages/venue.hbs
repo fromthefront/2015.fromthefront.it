@@ -45,6 +45,4 @@ theme: t-blue
     {{> _map}}
   </div>
 </article>
-{{#parseJSON '{"modifier": "is-ending-module"}'}}
-  {{> _tickets}}
-{{/parseJSON}}
+{{> _tickets modifier="is-ending-module"}}

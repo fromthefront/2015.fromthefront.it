@@ -229,7 +229,7 @@ module.exports = function(grunt) {
           layout: '<%= config.src %>/templates/layouts/default.hbs',
           data: '<%= config.src %>/data/**/*.{json,yml}',
           partials: '<%= config.src %>/templates/partials/*.hbs',
-          helpers: ['./node_modules/handlebars-helpers/lib/**/*.js', '<%= config.src %>/js/helpers/**/*.js' ]
+          helpers: ['./node_modules/handlebars-helpers/lib/**/*.js', '<%= config.src %>/js/helpers/*.js' ]
         },
         files: [
           {
