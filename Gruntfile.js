@@ -7,7 +7,8 @@ module.exports = function(grunt) {
   require('time-grunt')(grunt);
   require('jit-grunt')(grunt, {
     useminPrepare: 'grunt-usemin',
-    sprite: 'grunt-spritesmith'
+    sprite: 'grunt-spritesmith',
+    assemble: 'grunt-assemble'
   });
 
   // Wrapping up some data
