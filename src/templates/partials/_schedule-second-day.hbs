@@ -8,13 +8,13 @@
     {{> _schedule-event time="09:30" event="Welcome" }}
     {{#each (sort (after (sort speakers.list "day") 8) "place")  }}
       {{> _schedule-speaker}}
-      {{#is @index 1}}
+      {{#is place 2}}
         {{> _schedule-event time="11:15" event="Break" }}
       {{/is}}
-      {{#is @index 3}}
+      {{#is place 4}}
         {{> _schedule-event time="13:15" event="Lunch" }}
       {{/is}}
-      {{#is @index 5}}
+      {{#is place 6}}
         {{> _schedule-event time="16:15" event="Break" }}
       {{/is}}
     {{/each}}
