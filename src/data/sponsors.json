@@ -22,6 +22,13 @@
      "banner": "m-bancaetica.png"
     },
     {
+     "order": 3,
+     "weight": "medium",
+     "name": "Skyscanner",
+     "link": "http://http://www.skyscanner.com/",
+     "banner": "m-skyscanner.png"
+    },
+    {
      "order": 1,
      "weight": "small",
      "name": "Siteground",
