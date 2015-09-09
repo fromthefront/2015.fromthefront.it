@@ -8,7 +8,7 @@
      "banner": "l-mailchimp.png"
     },
     {
-     "order": 1,
+     "order": 3,
      "weight": "medium",
      "name": "Stamplay",
      "link": "https://stamplay.com/",
@@ -22,7 +22,7 @@
      "banner": "m-bancaetica.png"
     },
     {
-     "order": 3,
+     "order": 1,
      "weight": "medium",
      "name": "Skyscanner",
      "link": "http://http://www.skyscanner.com/",
