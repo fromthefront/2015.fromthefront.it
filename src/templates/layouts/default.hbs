@@ -12,6 +12,27 @@
       <link rel="stylesheet" href="{{assets}}/css/app.css">
     {{/if}}
 
+    <style>
+      .next, .spacer {
+        position: fixed;
+        z-index: 10000;
+        width: 100%;
+        text-align: center;
+        font-size: 140%;
+        top: 0px;
+        background: #FF644B;
+        padding: 20px;
+        color:#EFDB9F;
+      }
+      .next a {
+        color:#46466E
+      }
+      .spacer {
+        visibility: hidden;
+        position: relative;
+      }
+    </style>
+
     {{!-- Typekit async --}}
     <script>
       (function(d) {
@@ -27,6 +48,9 @@
 
   </head>
   <body>
+    <div class="spacer">You couldn't have it if you did want it, the rule is, <a href="http://fromthefront.it">jam tomorrow</a> and jam yesterday – but never jam today.</div>
+    <div class="next">You couldn't have it if you did want it, the rule is, <a href="http://fromthefront.it">jam tomorrow</a> and jam yesterday – but never jam today.</div>
+
     {{> _nav}}
     <main id="main" class="l-main" role="main">
       {{> body }}
