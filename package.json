@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "grunt build"
-  }
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-assemble": "^0.4.0",
